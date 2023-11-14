@@ -1,3 +1,36 @@
+trigger test
+
+#Version 5.3.11.0 (x)
+
+#1623 
+<br>
+ERezept - SOK ausfiltern: die SOK-PZN werden ausgefiltert.
+<br>
+
+#1677
+<br>
+Zyto-Schnittstelle PKV Stückelung - bessere Auswahl der Packungsgrößen
+Es werden die bessere Kombinationen von Packungen bei der PKV-Stückelung vorgeschlagen.
+<br>
+
+#1724 
+Neues Rezept  - Kontrolle Artikel vor dem Drucken: neue Spalte
+<br>
+Es wurde eine neue Spalte Artikelinfo mit den Informationen aus ABDA-Artikelstamm eingerichtet.
+<br>
+
+#1734
+<br>
+Zyto-Schnittstelle - fehlende ABDA bei den Komponenten
+<br>
+
+#1739
+<br> 
+Auswertungen - Diagramm Fehler
+Die Reihenfolge der Monate hat nicht gestimmt. Der Fehler wurde korrigiert.
+<br>
+
+
 #Version 5.3.10.1 (x)
 #1733
 <br>
