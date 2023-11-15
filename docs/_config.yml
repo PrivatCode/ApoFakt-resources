@@ -1,4 +1,4 @@
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: PrivatCode/github-pages-jekyll-theme
 plugins:
 - jekyll-remote-theme
 
