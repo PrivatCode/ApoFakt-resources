@@ -2,5 +2,5 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 
-title: ApoFakt Release Notes
-description: Here you can find out what''s new in the latest ApoFakt release
+title: ApoFakt Resources
+description: Here you can find the ApoFAKT related resources, e.g. the latest ApoFakt release notes.
