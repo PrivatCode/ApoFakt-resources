@@ -2,8 +2,8 @@ remote_theme: PrivatCode/github-pages-jekyll-theme
 plugins:
 - jekyll-remote-theme
 
-title: ApoFAKT-Ressourcen
-description: Hier finden Sie die ApoFAKT-Ressourcen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
+title: ApoFAKT Ressourcen
+description: Hier finden Sie die ApoFAKT Ressourcen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
 color-scheme: auto
 hide_project_page: true
 contents-header: Inhaltsverzeichnis
