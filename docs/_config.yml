@@ -5,6 +5,10 @@ plugins:
 title: ApoFakt Resources
 description: Here you can find the ApoFAKT related resources, e.g. the latest ApoFakt release notes.
 color-scheme: auto
+hide_project_page: true
+contents-header: "Inhaltsverzeichnis"
+project-maintenance-footer: "Dieses Projekt wird verwaltet von"
+
 navigation:
   - name: Release Notes
     link: ./release_notes
