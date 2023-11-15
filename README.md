@@ -1,5 +1,5 @@
-# Welcome
-This repository hosts publicly available resources related with ApoFAKT application.
+# Herzlich willkommen
+Dieses Repository hostet die öffentlich verfügbaren ApoFAKT-Ressourcen.
 
-## ApoFAKT Release Notes
-ApoFAKT release notes are being hosted on the GitHub's Pages [here](https://privatcode.github.io/ApoFakt-resources/release_notes).
+## Hinweise zu ApoFAKT
+Die Anmerkungen zu der neuesten Version von ApoFAKT werden [hier](https://privatcode.github.io/ApoFakt-resources/release_notes) auf Github gehostet.
