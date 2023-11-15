@@ -6,23 +6,23 @@ title: ApoFakt Resources
 description: Here you can find the ApoFAKT related resources, e.g. the latest ApoFakt release notes.
 color-scheme: auto
 navigation:
-  - name: Version 5.3.11.0 (x)
+  - name: v5.3.11.0 (x)
     link: ./release_notes#version-53110-x
-  - name: Version 5.3.10.1 (x)
+  - name: v5.3.10.1 (x)
     link: ./release_notes#version-53101-x
-  - name: Version 5.3.10.0 (12.10.2023)
+  - name: v5.3.10.0 (12.10.2023)
     link: ./release_notes#version-53100-12102023
-  - name: Version Version 5.3.9.1 (06.09.2023)
+  - name: v5.3.9.1 (06.09.2023)
     link: ./release_notes#version-5391-06092023
-  - name: Version 5.3.9 (21.08.2023)
+  - name: v5.3.9 (21.08.2023)
     link: ./release_notes#version-539-21082023
-  - name: Version 5.3.8.4 (24.07.2023)
+  - name: v5.3.8.4 (24.07.2023)
     link: ./release_notes#version-5384-24072023
-  - name: Version 5.3.8.3 (14.07.2023)
+  - name: v5.3.8.3 (14.07.2023)
     link: ./release_notes#version-5383-14072023
-  - name: Version 5.3.8.2 (10.07.2023)
+  - name: v5.3.8.2 (10.07.2023)
     link: ./release_notes#version-5382-10072023
-  - name: Version 5.3.8.1 (28.06.2023)
+  - name: v5.3.8.1 (28.06.2023)
     link: ./release_notes#version-5381-28062023
-  - name: Version 5.3.8.0 (15.06.2023)
+  - name: v5.3.8.0 (15.06.2023)
     link: ./release_notes#version-5380-15062023
