@@ -8,7 +8,7 @@ color-scheme: auto
 hide_project_page: true
 contents-header: Inhaltsverzeichnis
 project-maintenance-footer: Dieses Projekt wird verwaltet von
-github.is_project_page: false
+hide_project_footer: true
 
 navigation:
   - name: Release Notes
