@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: ApoFAKT
-description: Hier finden Sie die ApoFAKT Ressourcen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
+description: Hier finden Sie die ApoFAKT Informationen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
 color-scheme: auto
 hide_project_page: true
 contents-header: Inhaltsverzeichnis
