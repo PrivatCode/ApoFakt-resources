@@ -14,3 +14,5 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
+      - name: Version 5.3.11.0
+        link: ./release_notes#version-53110-öff-voraussichtlich-ende-november
