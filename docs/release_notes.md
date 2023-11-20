@@ -5,9 +5,19 @@
 - [x] __#1677__ - Zyto-Schnittstelle PKV Stückelung - bessere Auswahl der Packungsgrößen. Es werden die bessere Kombinationen von Packungen bei der PKV-Stückelung vorgeschlagen.
 - [x] __#1724__ - Neues Rezept - Kontrolle Artikel vor dem Drucken: neue Spalte. Es wurde eine neue Spalte Artikelinfo mit den Informationen aus ABDA-Artikelstamm eingerichtet.
 - [x] __#1734__ - Zyto-Schnittstelle - fehlende ABDA bei den Komponenten.
-- [x] __#1739__ - Auswertungen - Diagramm Fehler. Die Reihenfolge der Monate hat nicht gestimmt. Der Fehler wurde korrigiert.
+- [x] __#1739__ - Auswertungen - Diagramm Fehler Der Fehler bei der Reihenfolge der Monate wurde korrigiert.
+- [x] __#1743__ - Bei Rezeptstorno kann man einen Stornogrund erfassen. Die Stornogründe werden unter Verlauf mitangezeigt.
+- [x] __#1745__ - Tax-Checker Multiformel-Problem wurde gelöst (Syntaxfehler).
+- [x] __#1754__ - PKV-Zyto-Schnittstelle-Optionen wurden getrennt für Trägerlösungen und getrennt für Wirkstoffe und andere Komponenten umgebaut.
+- [x] __#1755__ - In der Taxierung/Rezeptliste werden die Materialkosten über Excel mitexportiert.
+- [x] __#1756__ - Korrektur beim Ausdrucken von Aut-Idem-Kreuz auf dem Rezept. 
+Grund: die aut idem Kreuze werden nicht an der richtigen Stelle gedruckt, wenn das SOK für steuerfrei als erste PZN steht. 
+Das aut idem Kreuz ist dann immer um 1 Feld zu tief gedruckt und 3 aut idem Kreuze kann man gar nicht drucken, da das 3. dann unten rausfällt. 
+Das Kreuz für den ersten Artikel muß an die erste Stelle vor dem Verordnungstext, gedruckt werden.
+- [x] __#1759__ - Bei den Zyto-Schnittstellen-Optionen wurde ein neuer Parameter: 'Bei PKV nach Hersteller filtern' eingebaut.
+- [x] __#1765__ - Der Export in eine JSON-Datei wurde korrigiert.
 
-# Version 5.3.10.1 (x)
+# Version 5.3.10.1 (öff. am 06.11.2023)
 - [x] __#1733__ - 
 Neuer Parameter bei Zytoschnittstelle – Optionen: „Keine PKV-Stückelung bei Trägerlösung“
 Über diese Option wird die PKV-Stückelung bei den Trägerlösungen ausgeschlossen, d.h. es wird im Verhältnis 1:1 das abgerechnet, 
@@ -15,7 +25,7 @@ was bei der Produktion jeweiliger Verordnung hergestellt wurde. Wird diese Optio
 werden die Packungen von Trägerlösungen genauso wie die Wirkstoffe betrachtet, d.h.es wird laut dem obigen Parameter: 
 geringster Preis/geringster Verwurf die beste Kombination von Packungen vorgeschlagen.
 
-# Version 5.3.10.0 (12.10.2023)
+# Version 5.3.10.0 (öff. am 12.10.2023)
 - [x] __#1591__ - In dem eigenem Patientenstamm kann die Option Einwilligung Datenweiterleitung aktiviert werden.
 - [x] __#1638__ - In den Musterrezepturen wurde eine neue Option 'SOK für Par. 11' eingerichtet. Beim Taxieren nach Par. 11 (IK=30) wird das neue Feld 'SOK für Par.11'und beim Taxieren nach Par. 129a(IK=26) dasalte Feld 'SOK' verwendet.
 - [x] __#1642__
@@ -27,7 +37,7 @@ geringster Preis/geringster Verwurf die beste Kombination von Packungen vorgesch
 - [x] __#1717__ - Patientenstamm - Zuzahlungsbefreiung für alle Patienten - es wurde eine Abfrage eingebaut.
 - [x] __#1735__ - ConnectX für Cato Schnittstelle- fehlende PatientenID (VersichertenNr.) Patientenzuordnung anhand Name und Geburtsdatum, falls PatientenID nicht vorhanden.
 
-# Version 5.3.9.1 (06.09.2023)
+# Version 5.3.9.1 (öff. am 06.09.2023)
 - [x] __#1656__
 - [x] __#1671__ - Externer Artikelstamm - Modul Interaktionen wurde deaktiviert.
 - [x] __#1657__ - Zyto-Schnittstelle (CATO)- es wurde ein neuer Filter: ArztID eingebaut.
@@ -36,7 +46,7 @@ geringster Preis/geringster Verwurf die beste Kombination von Packungen vorgesch
 - [x] __#1682__ - Sortierung in Grid - es wurde neue Funktion "Sortierung Zurücksetzen" (mit dem rechten Mausklick auf die erste Spalte/erste Zeile) eingerichtet.
 - [x] __#1713__ - Es kann bei der Wirkstoffanpassung in der Zyto-Schnittstelle nach Kassengruppennamen gefiltert werden.
 
-# Version 5.3.9 (21.08.2023)
+# Version 5.3.9 (öff. am 21.08.2023)
 - [x] __#1634__ - Neues Rezept - Einwilligung Datenweiterleitung: Patientendaten aus dem elektronischen Rezept werden nicht mehr überschrieben.
 - [x] __#1635__ - Zuzahlungsbefreiung wird aus der CATO XML-Datei über die ZYTO-SST mitübernommen.
 - [x] __#1636__ - Übernahme von Patientendaten aus CATO xml Datei, wenn Pat.ID nicht vorhanden.
@@ -79,26 +89,26 @@ Ab jetzt wird bei solchen Fertigarzneimitteln (mit mehr als 1 Wirkstoff) Faktor 
 - [x] __#1625__ - eRezept PKV - bei dem Taxierungsvorgang wird der Rezepttyp automatisch auf PKV umgestellt.
 - [x] __#1486__ - eRezept - Inhalt der technischen Tabellen (Queue Tabellen für Rezeptanforderung und Rezeptabruf) wurde dargestellt
 
-# Version 5.3.8.4 (24.07.2023)
+# Version 5.3.8.4 (öff. am 24.07.2023)
 - [x] __#1608__ - Warnung "fehlender Wirkstoff" in der Herstellungsschnittstelle wurde rausgenommen.
 - [x] __#1609__ - Rezeptliste: Sortierung über die erste Spalte (Typ) wurde aktiviert.
 - [x] __#1615__ - Taxierung von Hilfsmitteln: Fehlermeldung in der Rezeptliste: "'xxxxxxxxxx' is not a valid integer value" wurde korrigiert
 
-# Version 5.3.8.3 (14.07.2023)
+# Version 5.3.8.3 (öff. am 14.07.2023)
 - [x] __#1589__ - Rezeptliste - Leistungsverbesserung der SQL-Abfrage in Bezug auf die Anzeige von Informationen über Kassenabsetzungen
 
-# Version 5.3.8.2 (10.07.2023)
+# Version 5.3.8.2 (öff. am 10.07.2023)
 - [x] __#1561__ - Externe Patientendaten - Einwilligung der Datenweiterleitung Auswahl über ComboBox, farbige Darstellung.
 - [x] __#1566__ - ZYTO-Schnittstelle - Suchfunktion nach Vornamen und Geburtsdatum.
 - [x] __#1576__ - Tabelle HRS_MESSAGE - neuer Index auf ERezeptID wurde hinzugefügt
 - [x] __#1581__ - Tabelle ERP_VERORDNUNG - neue Spalte ERP_TIMESTAMP wurde eingerichtet
 
-# Version 5.3.8.1 (28.06.2023)
+# Version 5.3.8.1 (öff. am 28.06.2023)
 - [x] __#1542__ - Beim Kopieren/Korrigieren von AMG-Rezepten wurde die Option "Formel verwenden" automatisch deaktiviert.
 Dadurch wurde ein anderer Preis (eventuell auch MwSt.) berechnet.
 Betroffen sind die ABDA-Artikel ohne Taxierungsformel auf Artikelebene.
 
-# Version 5.3.8.0 (15.06.2023)
+# Version 5.3.8.0 (öff. am 15.06.2023)
 - [x] __#1232__ - Externer Artikelstamm: die Felder im Reiter Allgemein wurden so erweitert, dass sich die neuen langen Artikeltypen mit den Artikelinformationen nicht mehr überlappern.
 - [x] __#1245__ - Modul Neues Rezept und @Rezept: die Icons bei den PKV Rezepten wurden angepasst (blaue Rezepte).
 - [x] __#1411__ - Taxierungformeln wurden um die neue Variable IMPFRAB (Impfstoffrabatt) erweitert.
