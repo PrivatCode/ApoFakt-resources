@@ -1,6 +1,7 @@
 # Version 5.3.11.0 (öff. am 29.11.2023)
 - [x] __#1610__ - In der Rezeptliste werden stornierte Rezepte mitangezeigt (es wurde ein neuer Filter: 'Nur stornierte Rezepte anzeigen' eingerichtet).
 - [x] __#1623__ - SOK ausfiltern: die SOK-PZN werden ausgefiltert.
+TEST
 - [x] __#1670__ - Es wurden unter Informationen Neuerungen deaktiviert und jetzt sind sie über die Webseite verfügbar.
 - [x] __#1677__ - Zyto-Schnittstelle PKV Stückelung - bessere Auswahl der Packungsgrößen. Es werden die bessere Kombinationen von Packungen bei der PKV-Stückelung vorgeschlagen.
 - [x] __#1724__ - Neues Rezept - Kontrolle Artikel vor dem Drucken: neue Spalte. Es wurde eine neue Spalte Artikelinfo mit den Informationen aus ABDA-Artikelstamm eingerichtet.
