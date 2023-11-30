@@ -1,4 +1,4 @@
-# Version 5.3.11.0 (öff. voraussichtlich Ende November)
+# Version 5.3.11.0 (öff. am 29.11.2023)
 - [x] __#1610__ - In der Rezeptliste werden stornierte Rezepte mitangezeigt (es wurde ein neuer Filter: 'Nur stornierte Rezepte anzeigen' eingerichtet).
 - [x] __#1623__ - SOK ausfiltern: die SOK-PZN werden ausgefiltert.
 - [x] __#1670__ - Es wurden unter Informationen Neuerungen deaktiviert und jetzt sind sie über die Webseite verfügbar.
@@ -8,7 +8,9 @@
 - [x] __#1739__ - Auswertungen - Diagramm Fehler Der Fehler bei der Reihenfolge der Monate wurde korrigiert.
 - [x] __#1743__ - Bei Rezeptstorno kann man einen Stornogrund erfassen. Die Stornogründe werden unter Verlauf mitangezeigt.
 - [x] __#1745__ - Tax-Checker Multiformel-Problem wurde gelöst (Syntaxfehler).
-- [x] __#1754__ - PKV-Zyto-Schnittstelle-Optionen wurden getrennt für Trägerlösungen und getrennt für Wirkstoffe und andere Komponenten umgebaut.
+- [x] __#1754__ - PKV-Zyto-Schnittstelle-Optionen wurden getrennt sowohl für die Trägerlösungen, als auch für die Wirkstoffe und andere Komponenten umgebaut. 
+PKV-Optionen: mg-genaue Übernahme/Aufrunden auf volle Packungseinheit/Stückelung geringster Preis/Stückelung geringster Verwurf
+PKV-Optionen bei Trägerlösung: Ohne Aufrunden/Stückelung/Aufrunden auf volle Packungseinheit/Stückelung geringster Preis/Stückelung geringster Verwurf
 - [x] __#1755__ - In der Taxierung/Rezeptliste werden die Materialkosten über Excel mitexportiert.
 - [x] __#1756__ - Korrektur beim Ausdrucken von Aut-Idem-Kreuz auf dem Rezept. 
 Grund: die aut idem Kreuze werden nicht an der richtigen Stelle gedruckt, wenn das SOK für steuerfrei als erste PZN steht. 
