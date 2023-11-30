@@ -1,12 +1,11 @@
 # Version 5.3.11.0 (öff. am 29.11.2023)
 - [x] __#1610__ - In der Rezeptliste werden stornierte Rezepte mitangezeigt (es wurde ein neuer Filter: 'Nur stornierte Rezepte anzeigen' eingerichtet).
 - [x] __#1623__ - SOK ausfiltern: die SOK-PZN werden ausgefiltert.
-TEST
 - [x] __#1670__ - Es wurden unter Informationen Neuerungen deaktiviert und jetzt sind sie über die Webseite verfügbar.
-- [x] __#1677__ - Zyto-Schnittstelle PKV Stückelung - bessere Auswahl der Packungsgrößen. Es werden die bessere Kombinationen von Packungen bei der PKV-Stückelung vorgeschlagen.
+- [x] __#1677__ - Zyto-Schnittstelle PKV Stückelung - bessere Auswahl der Packungsgrößen. Es werden bessere Kombinationen von Packungen bei der PKV-Stückelung vorgeschlagen.
 - [x] __#1724__ - Neues Rezept - Kontrolle Artikel vor dem Drucken: neue Spalte. Es wurde eine neue Spalte Artikelinfo mit den Informationen aus ABDA-Artikelstamm eingerichtet.
 - [x] __#1734__ - Zyto-Schnittstelle - fehlende ABDA bei den Komponenten.
-- [x] __#1739__ - Auswertungen - Diagramm Fehler Der Fehler bei der Reihenfolge der Monate wurde korrigiert.
+- [x] __#1739__ - Auswertungen - Diagramm Fehler. Der Fehler bei der Reihenfolge der Monate wurde korrigiert.
 - [x] __#1743__ - Bei Rezeptstorno kann man einen Stornogrund erfassen. Die Stornogründe werden unter Verlauf mitangezeigt.
 - [x] __#1745__ - Tax-Checker Multiformel-Problem wurde gelöst (Syntaxfehler).
 - [x] __#1754__ - PKV-Zyto-Schnittstelle-Optionen wurden getrennt sowohl für die Trägerlösungen, als auch für die Wirkstoffe und andere Komponenten umgebaut. 
@@ -15,8 +14,8 @@ PKV-Optionen bei Trägerlösung: Ohne Aufrunden/Stückelung/Aufrunden auf volle 
 - [x] __#1755__ - In der Taxierung/Rezeptliste werden die Materialkosten über Excel mitexportiert.
 - [x] __#1756__ - Korrektur beim Ausdrucken von Aut-Idem-Kreuz auf dem Rezept. 
 Grund: die aut idem Kreuze werden nicht an der richtigen Stelle gedruckt, wenn das SOK für steuerfrei als erste PZN steht. 
-Das aut idem Kreuz ist dann immer um 1 Feld zu tief gedruckt und 3 aut idem Kreuze kann man gar nicht drucken, da das 3. dann unten rausfällt. 
-Das Kreuz für den ersten Artikel muß an die erste Stelle vor dem Verordnungstext, gedruckt werden.
+Das aut idem Kreuz ist dann immer um 1 Feld zu tief gedruckt und 3 aut idem Kreuz kann man gar nicht drucken, da das 3. dann unten rausfällt. 
+Das Kreuz für den ersten Artikel muß an die erste Stelle vor dem Verordnungstext gedruckt werden.
 - [x] __#1759__ - Bei den Zyto-Schnittstellen-Optionen wurde ein neuer Parameter: 'Bei PKV nach Hersteller filtern' eingebaut.
 - [x] __#1765__ - Der Export in eine JSON-Datei wurde korrigiert.
 
@@ -30,7 +29,7 @@ geringster Preis/geringster Verwurf die beste Kombination von Packungen vorgesch
 
 # Version 5.3.10.0 (öff. am 12.10.2023)
 - [x] __#1591__ - In dem eigenem Patientenstamm kann die Option Einwilligung Datenweiterleitung aktiviert werden.
-- [x] __#1638__ - In den Musterrezepturen wurde eine neue Option 'SOK für Par. 11' eingerichtet. Beim Taxieren nach Par. 11 (IK=30) wird das neue Feld 'SOK für Par.11'und beim Taxieren nach Par. 129a(IK=26) dasalte Feld 'SOK' verwendet.
+- [x] __#1638__ - In den Musterrezepturen wurde eine neue Option 'SOK für Par. 11' eingerichtet. Beim Taxieren nach Par. 11 (IK=30) wird das neue Feld 'SOK für Par.11', und beim Taxieren nach Par. 129a(IK=26) das alte Feld 'SOK' verwendet.
 - [x] __#1642__
 - [x] __#1665__
 - [x] __#1712__ - Für die PZN 06460518 (=Arbeitspreis) soll das Preiskennzeichen automatisch in der Taxierung gesetzt werden: bei öff. Apotheken (APOTYP=30) soll das PreisKZ=74 und und bei KH-Apotheken (APOTYP=26) das Preiskz=76 automatisch gesetzt werden.
@@ -46,7 +45,7 @@ geringster Preis/geringster Verwurf die beste Kombination von Packungen vorgesch
 - [x] __#1657__ - Zyto-Schnittstelle (CATO)- es wurde ein neuer Filter: ArztID eingebaut.
 - [x] __#1674__ - eRezept - Fehlermeldung nach Freigabe und Signieren eines eRezeptes wegen fehlendem Rezeptkommentar in Apofakt beim Taxieren des eRezeptes wurde korrigiert.
 - [x] __#1675__ - e-Rezept - Freigabe/Signieren von PKV eRezepten in ApoFAKT wurde deaktiviert.
-- [x] __#1682__ - Sortierung in Grid - es wurde neue Funktion "Sortierung Zurücksetzen" (mit dem rechten Mausklick auf die erste Spalte/erste Zeile) eingerichtet.
+- [x] __#1682__ - Sortierung in Grid - es wurde EINE neue Funktion "Sortierung Zurücksetzen" (mit dem rechten Mausklick auf die erste Spalte/erste Zeile) eingerichtet.
 - [x] __#1713__ - Es kann bei der Wirkstoffanpassung in der Zyto-Schnittstelle nach Kassengruppennamen gefiltert werden.
 
 # Version 5.3.9 (öff. am 21.08.2023)
@@ -90,7 +89,7 @@ Ab jetzt wird bei solchen Fertigarzneimitteln (mit mehr als 1 Wirkstoff) Faktor 
 - [x] __#1607__ - eRezept: Zusatzattribut und Rezeptänderungen wurden in der Rezeptliste dargestellt.
 - [x] __#1621__ - eRezept: UI Komponente für Rezeptanforderung in der Taxierungsmaske, Auswahl der KIM-Adresse für Empfänger.
 - [x] __#1625__ - eRezept PKV - bei dem Taxierungsvorgang wird der Rezepttyp automatisch auf PKV umgestellt.
-- [x] __#1486__ - eRezept - Inhalt der technischen Tabellen (Queue Tabellen für Rezeptanforderung und Rezeptabruf) wurde dargestellt
+- [x] __#1486__ - eRezept - Inhalt der technischen Tabellen (Queue Tabellen für Rezeptanforderung und Rezeptabruf) wurde dargestellt.
 
 # Version 5.3.8.4 (öff. am 24.07.2023)
 - [x] __#1608__ - Warnung "fehlender Wirkstoff" in der Herstellungsschnittstelle wurde rausgenommen.
