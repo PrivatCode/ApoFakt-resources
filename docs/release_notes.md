@@ -1,4 +1,4 @@
-# Version 5.3.11.1 (geplant für den 12.01.2024)
+# Version 5.3.11.1 (öff. am  09.01.2024)
 - [x] __#1763__ - Kopierfenster in Rezeptsuche ändern: die Kopierfunktion wird von nun an nur für das angeklickte Feld angeboten, 
 nicht für alle Felder.
 - [x] __#1775__ - Neues Rezept - Aufnahmenummer wurde auf Fallnummer umbenannt.

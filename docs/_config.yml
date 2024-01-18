@@ -14,8 +14,8 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
-      - name: v5.3.11.1 (geplant für den 12.01.2024)
-        link: ./release_notes#version-53111-geplant-für-den-12012024
+      - name: v5.3.11.1 (öff. am  09.01.2024)
+        link: ./release_notes#version-53111-öff-am--09012024
       - name: v5.3.11.0 (öff. am 29.11.2023)
         link: ./release_notes#version-53110-öff-am-29112023
       - name: v5.3.10.1 (öff. am 06.11.2023)
