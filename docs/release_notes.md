@@ -1,3 +1,6 @@
+# Version 5.3.11.2 (öff. am  22.01.2024)
+- [x] __#1795__ - Korrektur der Fehlermeldung bei der Auswahl der Musterrezeptur, Feld zzgl.Verwurf JA + Preisvergleich JA (GKV Rezept)
+
 # Version 5.3.11.1 (öff. am  09.01.2024)
 - [x] __#1763__ - Kopierfenster in Rezeptsuche ändern: die Kopierfunktion wird von nun an nur für das angeklickte Feld angeboten, 
 nicht für alle Felder.
