@@ -1,7 +1,7 @@
 # Version 5.3.12.0 (geplant am 14.02.2024)
 - [x] __#1811__ - Neues Rezept - Rezeptprüfung 28 Tage: Neue Prüfung, die erkennt, wenn zwischen Verordnungsdatum und Abgabedatum mehr als 28 Tage liegen. Hinweistext:
 "Zwischen Verordnungs- und Abgabedatum liegen mehr als 28 Tage. Bitte prüfen Sie, ob das für diese Verordnung gültig ist."
-- [x] __#1687__ - Externe Patienten - Spalte Einwilligung 'Datenweiterleitung' – Optimierung der Darstellung.
+- [x] __#1687__ - Externe Patienten - Spalte 'Einwilligung Datenweiterleitung' – Optimierung der Darstellung.
 - [x] __#1749__ - Benutzeransichten: Anzeige der Beschreibung zu einer Benutzeransicht.
 - [x] __#1790__ - Neues Rezept – Erweiterung des Excel-Exports um das Feld 'Benutzername'.
 - [x] __#1797__ - eRezept - eVerordnungen – Verschieben der Spalte 'Kostenträgertyp'.
