@@ -1,3 +1,21 @@
+# Version 5.3.12.0 (geplant am 14.02.2024)
+- [x] __#1811__ - Neues Rezept - Rezeptprüfung 28 Tage: Neue Prüfung, die erkennt, wenn zwischen Verordnungsdatum und Abgabedatum mehr als 28 Tage liegen. Hinweistext:
+"Zwischen Verordnungs- und Abgabedatum liegen mehr als 28 Tage. Bitte prüfen Sie, ob das für diese Verordnung gültig ist."
+- [x] __#1687__ - Externe Patienten - Spalte Einwilligung 'Datenweiterleitung' – Optimierung der Darstellung.
+- [x] __#1749__ - Benutzeransichten: Anzeige der Beschreibung zu einer Benutzeransicht.
+- [x] __#1790__ - Neues Rezept – Erweiterung des Excel-Exports um das Feld 'Benutzername'.
+- [x] __#1797__ - eRezept - eVerordnungen – Verschieben der Spalte 'Kostenträgertyp'.
+- [x] __#1799__ - Neues Rezept - eRezept: Storno von eRezept mit Status IN ABRECHNUNG/ABGERECHNET gesperrt.
+- [x] __#1805__ - Neues Rezept - eRezept: Bearbeitung der Zusatzattribute eingerichtet.
+- [x] __#1806__ - Neues Rezept - eRezept: Zusatzattribute - Prüfung/Validierung der Zusatzattribute (nach Technische Anlage 7).
+- [x] __#1810__ - eRezept - eVerrodnungen: Zuzahlungsbefreiung (Korrektur): Zuzahlungsstatus aus der ärztlichen Verordnung richtig mitübernommen.
+- [x] __#1812__ - eRezept - eVerordnungen: Darstellung der FiveRX-Status nach der Übertragung ans Rechenzentrum.
+- [x] __#1816__ - eRezept - eVerordnungen: Optimierung beim Laden von Daten.
+- [x] __#1819__ - eRezept – eVerordnungen: Korrektur - Faktor aus der ärztlichen Verordnung richtig mitübernommen.
+- [x] __#1824__ - eRezept – eVerordnungen: (bugfix) Fehlermeldung beim Versuch ein storniertes Rezept erneut zu taxieren, korrigiert. 
+- [x] __#1825__ - Neues Rezept - eRezept: Meldung beim Rezeptstorno angepasst.
+- [x] __#1827__ - eRezept – eVerordnungen: Anzeige des Abgabedatums sowie der RezeptNr. auf dem rosa Rezept.
+ 
 # Version 5.3.11.2 (öff. am  22.01.2024)
 - [x] __#1795__ - Korrektur der Fehlermeldung bei der Auswahl der Musterrezeptur, Feld zzgl.Verwurf JA + Preisvergleich JA (GKV Rezept)
 
