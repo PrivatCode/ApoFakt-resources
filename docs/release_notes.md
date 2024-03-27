@@ -1,3 +1,22 @@
+# Version 5.3.13.0 (geplant für April)
+- [x] __#1526__ -TaxChecker - Einrichtung neuer Variablen  SSB, IMPF,HIM.
+- [x] __#1761__ - eRezept - eVerordnungen: Ermittteln von Vertragskennzeichen anhand KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN (Zusatzattribut für Ersatzverordnung).
+- [x] __#1762__ - Neues Rezept: Korrektur bei der Ersatzverordnung - Zuzahlung darf nicht > 0 sein.
+- [x] __#1820__ - eRezept - eVeordnungen: Schlüssel für Rezeptänderungen beim eRezept eingerichtet.
+- [x] __#1833__ - eRezept - Zyto-Schnittstelle - eVerordnungen: Übernahme der eRezeptID ins Feld RezeptID.
+- [x] __#1834__ - eRezept - eVerordnungen: Korrektur der Fehlermeldung/fehlendes rosa Rezept.
+- [x] __#1835__ - eRezept - eVerordnungen: Korrektur der Fehlermeldung: ZYTO - eVerordnungen.
+- [x] __#1838__ - eRezept - eVerordnungen: FRX Status hinzugefügt.
+- [x] __#1839__ - eRezept - eVerordnungen: Bearbeiten der Zusatzattribute eingerichtet.
+- [x] __#1840__ - eRezept - eVerordnungen - Optimierungen bei der Option "Suche nach".
+- [x] __#1843__ - eRezept - eVerordnungen: Menüleiste umgebaut.
+- [x] __#1849__ - Neues Rezept - Verlauf: Korrektur des Status beim Kopieren eines Rezeptes.
+- [x] __#1850__ - eRezept/Neues Rezept - Zusatzattribute bearbeiten : Tooltip eingerichtet.
+- [x] __#1854__ - eRezept - eVerordnungen: Spalte PZN bei Zusatzattributen eingerichtet.
+- [x] __#1856__ - Externer Artikelstamm: Bearbeiten des Layouts.
+- [x] __#1859__ - Neues Rezept: Korrektur des Rundungsfehlers bei der Zuzahlung.
+- [x] __#1860__ - Benutzeransichten: Währung bei dem Rezeptur-Faktor entfernt.
+
 # Version 5.3.12.0 (öff. am 15.02.2024)
 - [x] __#1811__ - Neues Rezept - Rezeptprüfung 28 Tage: Neue Prüfung, die erkennt, wenn zwischen Verordnungsdatum und Abgabedatum mehr als 28 Tage liegen. Hinweistext:
 "Zwischen Verordnungs- und Abgabedatum liegen mehr als 28 Tage. Bitte prüfen Sie, ob das für diese Verordnung gültig ist."
