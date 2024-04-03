@@ -16,6 +16,7 @@
 - [x] __#1856__ - Externer Artikelstamm: Bearbeiten des Layouts.
 - [x] __#1859__ - Neues Rezept: Korrektur des Rundungsfehlers bei der Zuzahlung.
 - [x] __#1860__ - Benutzeransichten: Währung bei dem Rezeptur-Faktor entfernt.
+- [x] __#1864__ - Verordnungsliste: RezeptNr. in der Verordnungsliste eingebaut.
 
 # Version 5.3.12.0 (öff. am 15.02.2024)
 - [x] __#1811__ - Neues Rezept - Rezeptprüfung 28 Tage: Neue Prüfung, die erkennt, wenn zwischen Verordnungsdatum und Abgabedatum mehr als 28 Tage liegen. Hinweistext:
