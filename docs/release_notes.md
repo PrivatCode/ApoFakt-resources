@@ -13,7 +13,7 @@
 - [x] __#1843__ - eRezept - eVerordnungen: Menüleiste umgebaut.
 - [x] __#1849__ - Neues Rezept - Verlauf: Korrektur des Status beim Kopieren eines Rezeptes.
 - [x] __#1850__ - eRezept/Neues Rezept - Zusatzattribute bearbeiten : Tooltip eingerichtet.
-- [x] __#1854__ - eRezept - eVerordnungen: Spalte "PZN" bei Zusatzattributen eingerichtet.
+- [x] __#1854__ - eRezept - eVerordnungen: Zeile mit der laufenden Nummerierung pro PZN bei Zusatzattributen eingerichtet.
 - [x] __#1856__ - Externer Artikelstamm: Bearbeiten des Layouts.
 - [x] __#1859__ - Neues Rezept: Korrektur des Rundungsfehlers bei der Zuzahlung.
 - [x] __#1860__ - Benutzeransichten: Währung bei dem Rezeptur-Faktor entfernt.
