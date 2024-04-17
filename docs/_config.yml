@@ -14,8 +14,10 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
-      - name: v5.3.13.0 (geplant für April)
-        link: ./release_notes#version-53130-geplant-für-april
+      - name: v5.3.13.1 (geplant im April)
+        link: ./release_notes#version-53131-geplant-im-april
+      - name: v5.3.13.0 (öff. am 09.04.2024)
+        link: ./release_notes#version-53130-öff-am-09042024
       - name: v5.3.12.0 (öff. am 15.02.2024)
         link: ./release_notes#version-53120-öff-am-15022024
       - name: v5.3.11.2 (öff. am  22.01.2024)

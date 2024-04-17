@@ -1,4 +1,9 @@
-# Version 5.3.13.0 (geplant für April)
+# Version 5.3.13.1 (geplant im April)
+- [x] __#1890__ - ConnectX - Korrektur des Fehlers bei der Datenabholung
+- [x] __#1864__ - eVerodnungen - Zusatzattribute: Korrektur der Fehlermeldung 
+- [x] __#1902__ - Neues Rezept: zusätzliche Prüfung der KassenIK auf dem Rezept eingebaut
+
+# Version 5.3.13.0 (öff. am 09.04.2024)
 - [x] __#1864__ - Verordnungsliste: RezeptNr. in der Verordnungsliste eingebaut.
 - [x] __#1526__ -TaxChecker - Einrichtung neuer Variablen  SSB, IMPF,HIM.
 - [x] __#1761__ - eRezept - eVerordnungen: Ermittteln von Vertragskennzeichen anhand KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN (Zusatzattribut für Ersatzverordnung).
