@@ -1,7 +1,8 @@
-# Version 5.3.13.1 (geplant im April)
-- [x] __#1890__ - ConnectX - Korrektur des Fehlers bei der Datenabholung
-- [x] __#1864__ - eVerodnungen - Zusatzattribute: Korrektur der Fehlermeldung 
-- [x] __#1902__ - Neues Rezept: zusätzliche Prüfung der KassenIK auf dem Rezept eingebaut
+# Version 5.3.13.1 (öff. am 18.04.2024)
+- [x] __#1890__ - ConnectX - Korrektur bei der Übertragung der Rezepte (Datenabholung).
+- [x] __#1864__ - eVerodnungen: Zusatzattribute - Korrektur der Fehlermeldung.
+- [x] __#1902__ - Neues Rezept: zusätzliche Prüfung der KassenIK auf dem Rezept eingebaut.
+- [x] __#1903__ - Neues Rezept: Taxierungsvariablen - IMPFRAB - Korrektur der Berechnung.
 
 # Version 5.3.13.0 (öff. am 09.04.2024)
 - [x] __#1864__ - Verordnungsliste: RezeptNr. in der Verordnungsliste eingebaut.
