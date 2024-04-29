@@ -1,4 +1,4 @@
-# Version 5.3.13.1 (öff. am 18.04.2024)
+# Version 5.3.13.1 (befindet sich derzeit im Test)
 - [x] __#1890__ - ConnectX - Korrektur bei der Übertragung der Rezepte (Datenabholung).
 - [x] __#1864__ - eVerodnungen: Zusatzattribute - Korrektur der Fehlermeldung.
 - [x] __#1902__ - Neues Rezept: zusätzliche Prüfung der KassenIK auf dem Rezept eingebaut.
