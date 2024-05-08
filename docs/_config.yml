@@ -4,7 +4,7 @@ plugins:
 
 title: ApoFAKT
 description: Hier finden Sie die ApoFAKT Informationen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
-color-scheme: auto
+color-scheme: light
 hide_project_page: true
 contents-header: Inhaltsverzeichnis
 project-maintenance-footer: Dieses Projekt wird verwaltet von
