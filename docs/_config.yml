@@ -9,6 +9,7 @@ hide_project_page: true
 contents-header: Inhaltsverzeichnis
 project-maintenance-footer: Dieses Projekt wird verwaltet von
 hide_project_footer: true
+logo: ./af_logo.png
 
 navigation:
   - name: Release Notes
