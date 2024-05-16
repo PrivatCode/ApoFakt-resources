@@ -2,7 +2,7 @@ remote_theme: PrivatCode/github-pages-jekyll-theme
 plugins:
 - jekyll-remote-theme
 
-title: ApoFAKT
+title: 
 description: Hier finden Sie die ApoFAKT Informationen, u. a. die aktuellen Anmerkungen zu der neuesten Programmversion.
 color-scheme: light
 hide_project_page: true
