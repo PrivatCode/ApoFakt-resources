@@ -1,3 +1,22 @@
+# Version 5.3.4.0 (geplant für Anfang Juni)
+- [x] __#1869__ - Tax-Checker: Lücken in der Multiformel entfernt.
+- [x] __#1875__ – Tax-Checker: Korrektur bei der Zeilenauswahl.
+- [x] __#1895__ - Rezeptanforderungen: erneute Prüfung der Zusatzattribute bei der Rezeptanforderung.
+- [x] __#1908__ - Rezeptanforderungen: Arzt/Fallnummner/PatID validiert.
+- [x] __#1915__ - Neues Rezept: ein neues Feld 'AMG-Zeitstempel' im Excel-Export eingerichtet.
+- [x] __#1928__ - Startpanel: Release Notes + Online Dienste aktualisiert.
+- [x] __#1932__ - eVerordungen: fehlendes Feld 'Wirkstoffnummer' hinzufügt.
+- [x] __#1938__ - Benutzeransichten: ein neues Feld 'ERezeptID' eingerichtet.
+- [x] __#1940__ - ApoFAKT: neuer Reiter 'CnX-Dienste' hinzugefügt.
+- [x] __#1941__ - CnX-Dienste: CnX-Scheduler als Windows Service eingerichtet.
+- [x] __#1943__ - CnX-Dienste: CnX-Datenabholung eingerichtet.
+- [x] __#1943__ - Zyto-Schnittstelle: Datenimport über TCP für die Zyto-Schnittstelle implementiert.
+- [x] __#1945__ - CnX: REST API Schnittstelle implementiert.
+- [x] __#1946__ - CnX Bibliotheken: Neuer SSHClient in die Datei "CnX.Tools.dll" geschoben.
+- [x] __#1947__ - Neues Rezept: Rohertrag für Rezepturen ermittelt.
+- [x] __#1948__ - Verordnungsliste: Summe des Rohertrages eingerichtet.
+
+
 # Version 5.3.13.1 (öff. am 15.05.2024)
 - [x] __#1890__ - ConnectX - Korrektur bei der Übertragung der Rezepte (Datenabholung).
 - [x] __#1864__ - eVerodnungen: Zusatzattribute - Korrektur der Fehlermeldung.
