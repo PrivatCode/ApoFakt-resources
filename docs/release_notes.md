@@ -1,4 +1,4 @@
-# Version 5.3.4.0 (geplant für Anfang Juni)
+# Version 5.4.0 (geplant für Anfang Juni)
 - [x] __#1869__ - Tax-Checker: Lücken in der Multiformel entfernt.
 - [x] __#1875__ – Tax-Checker: Korrektur bei der Zeilenauswahl.
 - [x] __#1895__ - Rezeptanforderungen: erneute Prüfung der Zusatzattribute bei der Rezeptanforderung.
