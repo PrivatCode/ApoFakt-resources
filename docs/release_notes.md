@@ -15,7 +15,7 @@
 - [x] __#1946__ - CnX Bibliotheken: Neuer SSHClient in die Datei "CnX.Tools.dll" geschoben.
 - [x] __#1947__ - Neues Rezept: Rohertrag für Rezepturen ermittelt.
 - [x] __#1948__ - Verordnungsliste: Summe des Rohertrages eingerichtet.
-
+- [x] __#1956__ - Neues Rezept: Zuzahlungsbefreiung prüfen - Rückmeldung aus der Schnittstelle eingebaut.
 
 # Version 5.3.13.1 (öff. am 15.05.2024)
 - [x] __#1890__ - ConnectX - Korrektur bei der Übertragung der Rezepte (Datenabholung).
