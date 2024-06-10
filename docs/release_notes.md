@@ -1,3 +1,6 @@
+# Version 5.4.0.1 (Version im Test)
+- [x] __#1967__ - Biosimilars/Referenzartikel: falsche REF-Preise bei historischer Taxierung korrigiert.
+
 # Version 5.4.0.0 (öff. am 06.06.2024)
 - [x] __#1869__ - Tax-Checker: Lücken in der Multiformel entfernt.
 - [x] __#1895__ - Rezeptanforderungen: erneute Prüfung der Zusatzattribute bei der Rezeptanforderung.
