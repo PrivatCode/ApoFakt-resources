@@ -1,5 +1,5 @@
 # Version 5.4.0.2 (Version im Test)
-- [x] __#1959__ - Neues Rezept: Rohertrag in der Rezeptliste/Details dargestellt.
+- [x] __#1959__ - Neues Rezept: Rohertrag in der Rezeptliste/Details mitangezeigt.
 - [x] __#1964__ - Rezeptanforderungen: Optimierungen durchgeführt.
 - [x] __#1972__ - eVerordnungen: Dispensierung bei der Auseinzelung - Dar. des ersten Artikels aus der Rezeptur genommen.
 
