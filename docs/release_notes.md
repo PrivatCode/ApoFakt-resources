@@ -1,9 +1,9 @@
-# Version 5.4.0.2 (Version im Test)
+# Version 5.4.0.2 (öff. am 26.06.2024)
 - [x] __#1959__ - Neues Rezept: Rohertrag in der Rezeptliste/Details mitangezeigt.
 - [x] __#1964__ - Rezeptanforderungen: Optimierungen durchgeführt.
 - [x] __#1972__ - eVerordnungen: Dispensierung bei der Auseinzelung - Dar. des ersten Artikels aus der Rezeptur genommen.
 
-# Version 5.4.0.1 (Version im Test)
+# Version 5.4.0.1 (öff. am 11.06.2024)
 - [x] __#1967__ - Biosimilars/Referenzartikel: falsche REF-Preise bei historischer Taxierung korrigiert.
 
 # Version 5.4.0.0 (öff. am 06.06.2024)
