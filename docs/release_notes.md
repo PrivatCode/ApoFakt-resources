@@ -1,3 +1,17 @@
+# Version 5.4.1.0 (öff. am 13.08.2024) 
+- [x] __#1875__ - Tax-Checker: Korrektur bei der Zeilenauswahl im Tax-Checker.
+- [x] __#1976__ - Zyto-Schnittstelle: Betriebsart CYPRO eingerichtet.
+- [x] __#1986__ - Neues Rezept: Kommentar hinzufügen - Rechtschreibfehler korrigiert.
+- [x] __#1987__ - eVerordnungen/Neues Rezept: Hinzufügen/Bearbeiten der Zusatzattribute vor dem Taxieren eines eRezeptes gesperrt.
+- [x] __#1995__ - eVerordnungen - eRezept taxieren: FAM Rechtsschreibfehler korrigiert.
+- [x] __#1996__ - Neues Rezept: Rohertrag - EEK von einem eingesetzten Artikel mitberücksichtigt.
+- [x] __#1998__ - Ext. Artikelstamm: Rabattverträge Zytostatika - F5 Ersetzen: Suche der Rabattartikel (HA3) nach KassenIK und Region.
+- [x] __#1999__ - Apotheken: ein neues Feld 'Region (HA3)' für Rabattartikel (HA3) eingerichtet.
+- [x] __#2001__ - Neues Rezept: AMG Rezept - Meldungen in Bezug auf die Rabattartikel (HA3) eingebaut.
+- [x] __#2004__ - Neues Rezept: Korrektur der Rohertragsberechnung, wenn Anzahl von Packungen (FAM) >1.
+- [x] __#2007__ - Drei neue Felder: Rohertrag-Rez/Rohertrag-PZN/Rohertrag-RRPos in die Benutzeransichten hinzugefügt.
+- [x] __#2012__ - Apotheken - Region: Bearbeiten des Regionsnamen gesperrt.
+
 # Version 5.4.0.2 (öff. am 26.06.2024)
 - [x] __#1959__ - Neues Rezept: Rohertrag in der Rezeptliste/Details mitangezeigt.
 - [x] __#1964__ - Rezeptanforderungen: Optimierungen durchgeführt.
