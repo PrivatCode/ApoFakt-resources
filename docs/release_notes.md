@@ -1,3 +1,42 @@
+# Version 5.4.2.3 (öff. am 19.12.2024) 
+- [x] __#2118__ - eVerordnungen: Fehler beim Setzen des Zusatzattributs in Bezug auf die Gebührenbefreiung im eRezept korrigiert.
+
+# Version 5.4.2.2 (öff. am 25.11.2024 ) 
+- [x] __#2113__ - Zyto-Schnittstelle: Berechnung des Faktors bei den FAMs aus Zyto anhand der Menge (Einheit 'pcs of packages').
+
+# Version 5.4.2.1 (öff. am 22.11.2024) 
+- [x] __#2077__ - eRezept: FAM aus Zyto-Schnittstelle - Chargen- und Verfallsdaten aus der Schnittstelle mitübernommen.
+- [x] __#2103__ - Neues Rezept: eine neue Spalte 'eRezeptID' im Excel- und CSV-Export eingebaut.
+
+# Version 5.4.2.0 (öff. am 20.11.2024) 
+- [x] __#1612__ - @Rezept: Korrektur der Verknüpfungen von doppelten Datensätzen (körperliche Rezepte) vorgenommen.
+- [x] __#1862__ - eVerordnungen: Korrektur bei dem Wechseln des Rezepttypes (eRezept/Rezept) vorgenommen.
+- [x] __#1873__ - TaxChecker: Zeilen aus einem Vertrag in einen anderen oder anderen bestehenden Vertrag kopierbar gemacht.
+- [x] __#1966__ - Rezeptanforderungen: automatische Aktualisierung der Daten.
+- [x] __#1990__ - eVerordnungen: neue Schlüssel von Rezeptänderungen zum 01.11.2024 eingerichtet.
+- [x] __#1991__ - eVerordnungen: Rezeptänderungen - Rücksprache halten auf true/false setzen.
+- [x] __#1994__ - eVerordnungen: Übernahme der PZN-Arzneimittelinformation bei der Dispensierung vor der Taxierung des eRezeptes.
+- [x] __#2029__ - Neues Rezept: PZN Reiter - zwei neue Spalten über Rabattverträge: 'PreisKNZ' und 'Rabattvertrag HA3' eingebaut.
+- [x] __#2031__ - Neues Rezept: PZN Reiter - Rohertrag als Summe ermittelt.
+- [x] __#2043__ - Ext. Artikelstamm: Preishistorie - falsche Anzeige und Berechnung von historischen Daten des Festbetrages korrigiert.
+- [x] __#2044__ - Neues Rezept: Hilfsmittelkennzeichen wieder wie früher aufs Rezept (in das aut-idem-Feld) gedruckt.
+- [x] __#2046__ - CnX-Dienste: CnX-Preisänderungsdienst - Optimierungen vorgenommen.
+- [x] __#2049__ - Zyto-Schnittstelle: Übernahme von Charge und Verfallsdatum für SAP eingerichtet.
+- [x] __#2052__ - eVerordnungen: ein neues Zusatzattribut 'Teilmengenabgabe' eingebaut.
+- [x] __#2055__ - CnX-Dienste: CnX-Scheduler - Fehler bei der Laufzeit korrigiert.
+- [x] __#2056__ - Verordnungsliste: Feld 'Benutzername' in die Verordnungsliste sowie im Excel-Export eingebaut.
+- [x] __#2057__ - eVerordnungen/Neues Rezept: Korrektur bei der Reihenfolge von Meldungen (Freigabe/Dispensieren).
+- [x] __#2061__ - eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt.
+- [x] __#2065__ - Neues Rezept: Gültigkeitszeitraum des Rezeptes - Fehlermeldung auf Warnungsmeldung geändert.
+- [x] __#2067__ - Ext. Artikelstamm: erweiterte Suche - Fehler bei der Suche nach MG-Menge des Wirkstoffes korrigiert.
+- [x] __#2070__ - ApoFAKT: Darstellung von 'Rechenzentrum-IK' bei den Transferkunden.
+- [x] __#2073__ - Zyto-Schnittstelle: fehlende eRezeptID nach Zuordnen und Taxieren des eRezeptes eingebaut.
+- [x] __#2075__ - eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren.
+- [x] __#2082__ - Neues Rezept: neuer Reiter 'Charge' und 'Verfallsdatum' eingebaut.
+- [x] __#2083__ - Neues Rezept: neue Rezeptur - 'Charge' und 'Verfallsdatum' mit angezeigt.
+- [x] __#2091__ - eVerordnungen/Zyto-Schnittstelle: Übernahme des Abgabedatums aus der Dispensierung.
+- [x] __#2097__ - Neues Rezept: Format des Verfallsdatums bei den Verwürfen angepasst.
+
 # Version 5.4.1.0 (öff. am 13.08.2024) 
 - [x] __#1875__ - Tax-Checker: Korrektur bei der Zeilenauswahl im Tax-Checker.
 - [x] __#1976__ - Zyto-Schnittstelle: Betriebsart CYPRO eingerichtet.

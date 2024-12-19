@@ -15,6 +15,14 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
+      - name: v5.4.2.3 (öff. am 19.12.2024) 
+        link: ./release_notes#version-5423-öff-am-19122024-
+      - name: v5.4.2.2 (öff. am 25.11.2024 ) 
+        link: ./release_notes#version-5422-öff-am-25112024--
+      - name: v5.4.2.1 (öff. am 22.11.2024) 
+        link: ./release_notes#version-5421-öff-am-22112024-
+      - name: v5.4.2.0 (öff. am 20.11.2024) 
+        link: ./release_notes#version-5420-öff-am-20112024-
       - name: v5.4.1.0 (öff. am 13.08.2024) 
         link: ./release_notes#version-5410-öff-am-13082024-
       - name: v5.4.0.2 (öff. am 26.06.2024)
