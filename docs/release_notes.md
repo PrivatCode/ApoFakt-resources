@@ -12,7 +12,7 @@
 - [x] __#2117__ - Neues Rezept: Hinweis auf eine Zuzahlungsermäßigung im Rezept eingebaut.
 - [x] __#2121__ - Privatabrechnung: Korrektur bei der Anzeige von Rechnungsnummern.
 - [x] __#2125__ - Neues Rezept: Betrag der 'Zuzahlung' pro FAM mitangezeigt.
-- [x] __#2133__ - eVerordnungen: Warnung bei der Apotkenennummeränderung beim Taxieren des eRezeptes eingebaut.
+- [x] __#2133__ - eVerordnungen: Warnung bei der Apothkenennummeränderung beim Taxieren des eRezeptes eingebaut.
 - [x] __#2134__ - Taxierung: Organisationseinheiten eingerichtet.
 - [x] __#2135__ - eVerordnungen - Direktzuweisung: Änderung der Apotheken-Nummer ermöglicht.
 - [x] __#2155__ - Neues Rezept: Organisationseinheiten - Auswahlbox eingerichtet.
