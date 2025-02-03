@@ -1,3 +1,26 @@
+# Version 5.4.3.1 (Pilotierung, öff. am 31.01.2025) 
+- [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mitangezeigt.
+- [x] __#2201__ - Zyto-Schnittstelle: Chargenübermittlung - Fehler bei dem Parameter 'Verwurf automatisch berechnen' korrigiert.
+- [x] __#2202__ - eVerordnungen: Arztübernahme beim Taxieren eines eRezeptes (ASV-Rezept).
+- [x] __#2203__ - Arztstammdaten: ASV-eRezept: Umbenennung der Felder: ASV-Teamnummer und ASV-Fachgruppennr.
+- [x] __#2207__ - Zyto-Schnittstelle: Fehler bei der Berechnung des Faktors von Menge "pcs of package" bei FAMs korrigiert.
+
+# Version 5.4.3.0 (Pilotierung, öff. am 28.01.2025) 
+- [x] __#2068__ - Kassengruppen: Taxformeln in Kassengruppen einlesbar.
+- [x] __#2080__ - Refactoring zu #2061 (eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt).
+- [x] __#2081__ - Refactoring zu #2075 (eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren).
+- [x] __#2117__ - Neues Rezept: Hinweis auf eine Zuzahlungsermäßigung im Rezept eingebaut.
+- [x] __#2121__ - Privatabrechnung: Korrektur bei der Anzeige von Rechnungsnummern.
+- [x] __#2125__ - Neues Rezept: Betrag der 'Zuzahlung' pro FAM mitangezeigt.
+- [x] __#2133__ - eVerordnungen: Warnung bei der Apotkenennummeränderung beim Taxieren des eRezeptes eingebaut.
+- [x] __#2134__ - Taxierung: Organisationseinheiten eingerichtet.
+- [x] __#2135__ - eVerordnungen - Direktzuweisung: Änderung der Apotheken-Nummer ermöglicht.
+- [x] __#2155__ - Neues Rezept: Organisationseinheiten - Auswahlbox eingerichtet.
+- [x] __#2159__ - eVerordnungen - Rezeptänderungen: Combobox bei der Rücksprache eingebaut.
+- [x] __#2163__ - ApoCONNECT - @-Rezept: eine neue Spalte 'Apothekennummer'in Excel/CSV-Datei eingebaut.
+- [x] __#2165__ - eVerordnungen: Korrektur bei den doppelten eRezeptIDs vorgenommen.
+- [x] __#2167__ - eVerordnungen - Rezeptänderung: Kommentare bei dem eRezept nicht mehr automatisch als Rezeptänderung betrachtet.
+
 # Version 5.4.2.3 (öff. am 19.12.2024) 
 - [x] __#2118__ - eVerordnungen: Fehler beim Setzen des Zusatzattributs in Bezug auf die Gebührenbefreiung im eRezept korrigiert.
 
