@@ -1,5 +1,6 @@
 # Version 5.4.3.1 (Pilotierung, öff. am 31.01.2025) 
 - [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mitangezeigt.
+- [x] __#2183__ - eVerordnungen: Darstellung von ASV-Arztdaten aus dem E-Rezept.
 - [x] __#2201__ - Zyto-Schnittstelle: Chargenübermittlung - Fehler bei dem Parameter 'Verwurf automatisch berechnen' korrigiert.
 - [x] __#2202__ - eVerordnungen: Arztübernahme beim Taxieren eines eRezeptes (ASV-Rezept).
 - [x] __#2203__ - Arztstammdaten: ASV-eRezept: Umbenennung der Felder: ASV-Teamnummer und ASV-Fachgruppennr.
