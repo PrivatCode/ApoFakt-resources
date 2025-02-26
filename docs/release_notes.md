@@ -1,4 +1,4 @@
-# Version 5.4.3.1 (Pilotierung, öff. am 31.01.2025) 
+# Version 5.4.3.1 (Pilotierung, ab den 31.01.2025) 
 - [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mitangezeigt.
 - [x] __#2183__ - eVerordnungen: Darstellung von ASV-Arztdaten aus dem E-Rezept.
 - [x] __#2201__ - Zyto-Schnittstelle: Chargenübermittlung - Fehler bei dem Parameter 'Verwurf automatisch berechnen' korrigiert.
@@ -6,7 +6,7 @@
 - [x] __#2203__ - Arztstammdaten: ASV-eRezept: Umbenennung der Felder: ASV-Teamnummer und ASV-Fachgruppennr.
 - [x] __#2207__ - Zyto-Schnittstelle: Fehler bei der Berechnung des Faktors von Menge "pcs of package" bei FAMs korrigiert.
 
-# Version 5.4.3.0 (Pilotierung, öff. am 28.01.2025) 
+# Version 5.4.3.0 (Pilotierung, ab den 28.01.2025) 
 - [x] __#2068__ - Kassengruppen: Taxformeln in Kassengruppen einlesbar.
 - [x] __#2080__ - Refactoring zu #2061 (eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt).
 - [x] __#2081__ - Refactoring zu #2075 (eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren).

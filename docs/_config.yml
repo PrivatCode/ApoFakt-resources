@@ -15,10 +15,10 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
-      - name: v5.4.3.1 (Pilotierung, öff. am 31.01.2025) 
-        link: ./release_notes#version-5431-pilotierung-öff-am-31012025-
-      - name: v5.4.3.0 (Pilotierung, öff. am 28.01.2025) 
-        link: ./release_notes#version-5430-pilotierung-öff-am-28012025-
+      - name: v5.4.3.1 (Pilotierung, ab den 31.01.2025) 
+        link: ./release_notes#version-5431-pilotierung-ab-den-31012025-
+      - name: v5.4.3.0 (Pilotierung, ab den 28.01.2025) 
+        link: ./release_notes#version-5430-pilotierung-ab-den-28012025-
       - name: v5.4.2.3 (öff. am 19.12.2024) 
         link: ./release_notes#version-5423-öff-am-19122024-
       - name: v5.4.2.2 (öff. am 25.11.2024 ) 
