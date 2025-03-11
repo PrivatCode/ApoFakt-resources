@@ -24,8 +24,8 @@
 
 # Version 5.4.3.0 (öff. am 28.01.2025) 
 - [x] __#2068__ - Kassengruppen: Taxformeln in Kassengruppen einlesbar.
-- [x] __#2080__ - Refactoring zu #2061 (eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt).
-- [x] __#2081__ - Refactoring zu #2075 (eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren).
+- [x] __#2080__ - Korrektur zu #2061 (eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt).
+- [x] __#2081__ - Korrektur zu #2075 (eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren).
 - [x] __#2117__ - Neues Rezept: Hinweis auf eine Zuzahlungsermäßigung im Rezept eingebaut.
 - [x] __#2121__ - Privatabrechnung: Korrektur bei der Anzeige von Rechnungsnummern.
 - [x] __#2125__ - Neues Rezept: Betrag der 'Zuzahlung' pro FAM mitangezeigt.
