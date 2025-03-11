@@ -1,12 +1,28 @@
-# Version 5.4.3.1 (Pilotierung, ab den 31.01.2025) 
-- [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mitangezeigt.
+# Version 5.4.4.0 (öff. am 11.03.2025)
+- [x] __#1688__ - Zyto-Schnittstelle: die PatientenNr. bearbeiten - die PatientenNr. mit übernommen.
+- [x] __#1881__ - Tax-Checker: das Feld für "FAM" hinzugefügt.
+- [x] __#2008__ - Tax-Checker: Korrektur der Formelberechnung von EK-APU.
+- [x] __#2074__ - Neues Rezept: Zuz.-Rechnung: bei mehrseitigen Rechnungen die Seitenzahl und die Rechnungsnummer auf jeder Seite gedruckt.
+- [x] __#2193__ - Neues Rezept: Filter für NES-Status in der Taxierungsübersicht eingerichtet.
+- [x] __#2194__ - Rezeptanforderungen: Benutzeranzeige im E-Rezept-Modul.
+- [x] __#2195__ - eVerordnungen: Dispensierungsinformation - Darstellung von Chargen- und Verfallsdaten.
+- [x] __#2211__ - Ext. Artikelstamm: Hausliste - Excel-Export um ein Feld 'EK' (ApoEK) erweitert.
+- [x] __#2222__ - Rezepturenstatistik: Roherträge ermittelt.
+- [x] __#2235__ - eVerordnungen: Darstellung des Zuzahlungsstatus – Rubrik E-Verordnung (Digitales Muster 16).
+- [x] __#2244__ - eVerordnungen: Dispensierungsinformationen - Verfallsdaten, wenn vorhanden, mit angezeigt.
+- [x] __#2246__ - eVerordnungen: Korrektur der Datumsbeschreibung - Dispensierungsdatum und Ausstellungsdatum.
+- [x] __#2272__ - eVerordnungen: Fehlermeldung nach Öffnen der XML-Maske (Dispensierungsinformationen) korrigiert.
+- [x] __#2281__ - eVerordnungen: Zusatzatributte bei den Beschaffungskosten (PZN 09999637) auf dem FAM-Rezept nicht mehr automatisch hinzugefügt.
+
+# Version 5.4.3.1 (öff. am 31.01.2025) 
+- [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mit angezeigt.
 - [x] __#2183__ - eVerordnungen: Darstellung von ASV-Arztdaten aus dem E-Rezept.
 - [x] __#2201__ - Zyto-Schnittstelle: Chargenübermittlung - Fehler bei dem Parameter 'Verwurf automatisch berechnen' korrigiert.
 - [x] __#2202__ - eVerordnungen: Arztübernahme beim Taxieren eines eRezeptes (ASV-Rezept).
-- [x] __#2203__ - Arztstammdaten: ASV-eRezept: Umbenennung der Felder: ASV-Teamnummer und ASV-Fachgruppennr.
+- [x] __#2203__ - Arztstammdaten: ASV-eRezept: Umbenennung der Felder - ASV-Teamnummer und ASV-Fachgruppennr.
 - [x] __#2207__ - Zyto-Schnittstelle: Fehler bei der Berechnung des Faktors von Menge "pcs of package" bei FAMs korrigiert.
 
-# Version 5.4.3.0 (Pilotierung, ab den 28.01.2025) 
+# Version 5.4.3.0 (öff. am 28.01.2025) 
 - [x] __#2068__ - Kassengruppen: Taxformeln in Kassengruppen einlesbar.
 - [x] __#2080__ - Refactoring zu #2061 (eVerordnungen: Substitutionsliste bei der Taxierung von eRezept (FAM - PZN) mitberücksichtigt).
 - [x] __#2081__ - Refactoring zu #2075 (eVeordnungen: Korrektur beim Setzen des AutIdem Kreuzes und HilfsmittelKZNs beim Taxieren).
@@ -29,13 +45,13 @@
 - [x] __#2113__ - Zyto-Schnittstelle: Berechnung des Faktors bei den FAMs aus Zyto anhand der Menge (Einheit 'pcs of packages').
 
 # Version 5.4.2.1 (öff. am 22.11.2024) 
-- [x] __#2077__ - eRezept: FAM aus Zyto-Schnittstelle - Chargen- und Verfallsdaten aus der Schnittstelle mitübernommen.
+- [x] __#2077__ - eRezept: FAM aus Zyto-Schnittstelle - Chargen- und Verfallsdaten aus der Schnittstelle mit übernommen.
 - [x] __#2103__ - Neues Rezept: eine neue Spalte 'eRezeptID' im Excel- und CSV-Export eingebaut.
 
 # Version 5.4.2.0 (öff. am 20.11.2024) 
 - [x] __#1612__ - @Rezept: Korrektur der Verknüpfungen von doppelten Datensätzen (körperliche Rezepte) vorgenommen.
 - [x] __#1862__ - eVerordnungen: Korrektur bei dem Wechseln des Rezepttypes (eRezept/Rezept) vorgenommen.
-- [x] __#1873__ - TaxChecker: Zeilen aus einem Vertrag in einen anderen oder anderen bestehenden Vertrag kopierbar gemacht.
+- [x] __#1873__ - Tax-Checker: Zeilen aus einem Vertrag in einen anderen oder anderen bestehenden Vertrag kopierbar gemacht.
 - [x] __#1966__ - Rezeptanforderungen: automatische Aktualisierung der Daten.
 - [x] __#1990__ - eVerordnungen: neue Schlüssel von Rezeptänderungen zum 01.11.2024 eingerichtet.
 - [x] __#1991__ - eVerordnungen: Rezeptänderungen - Rücksprache halten auf true/false setzen.
