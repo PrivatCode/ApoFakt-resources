@@ -1,3 +1,54 @@
+# Version 5.4.5.0 (Pilotierung ab den 21.05.2025)
+
+- [x] __#1851__ - eVerordnungen: neue Spalten 'Farben' (blau, grün, rot) zum Markieren einzelner E-Rezepte eingerichtet.
+- [x] __#1866__ - Benutzeransichten: Artikelname in Rezepturen mit angezeigt.
+- [x] __#1904__ - ABDA-Artikelstamm: Wirkstoffeinheit von PZN 08627744 richtig dargestellt.
+- [x] __#2030__ - Patientenstammdaten: Fehler bei dem Zusammenführen von Duplikaten, wenn keine Duplikate vorhanden, korrigiert.
+- [x] __#2095__ - Neues Rezept: Anpassung der Fehlermeldung nach manuellem Entfernen des SOK auf dem AMG-Rezept.
+- [x] __#2100__ - Neues Rezept: Erstellen von leeren Chargennummern/Verfallsdaten sowie Bearbeiten von Chargennummern/Verfallsdaten nach Freigabe gesperrt.
+- [x] __#2181__ - Neues Rezept: Neue Rezeptur - Fehlermeldung bez. unvermeidbarem Verwurf angepasst.
+- [x] __#2209__ - Rezeptanforderung: das Feld 'BundleID' als Spalte und in der Suchfunktion eingebaut.
+- [x] __#2230__ - Zyto-Schnittstelle: das Feld 'eRezeptID' als Filter eingerichtet.
+- [x] __#2233__ - eVerordnungen/Neues Rezept: Zeichenfolge der Chargennummer der Packung eingeschränkt.
+- [x] __#2252__ - eVerordnungen: Format des leeren Verfallsdatums angepasst.
+- [x] __#2261__ - Neues Rezept: Fehler bei dem Doppelklick auf den Link über NES-Status in die eVerordnungen korrigiert.
+- [x] __#2282__ - Neues Rezept: bei Patienten < 18 J. ist jetzt der Button 'Zuzahlungsbefreiung prüfen' gesperrt.
+- [x] __#2288__ - Neues Rezept: FiveRX-Fehlermeldungen - Datum in den Klammern hinzugefügt.
+- [x] __#2304__ - ConnectX: Kassenwechsel - Einlesen der Kassendaten über die ZYTO-Schnittstelle (XML-CATO) korrigiert.
+- [x] __#2305__ - Neues Rezept: Hinweis bei der Übernahme von Artikeltyp bei der Substituierten-PZN Günstigere-Prüfung (z. B. Biosimilars) eingebaut.
+- [x] __#2309__ - Neues Rezept: Fehlermeldung, wenn das Verordnungsdatum bei AMG-Rezepten nach dem Herstellungsdatum liegt, entfernt.
+- [x] __#2318__ - Neues Rezept: Berechnung des EEK bei dem Rohertrag und den Taxierungsformeln korrigiert.
+- [x] __#2322__ - CnX-Dienste: Fehlermeldung beim Kundendatenimport korrigiert.
+- [x] __#2323__ - eVerordnungen: fehlerhafte Prüfung der Zusatzattribute 1–4 bei Zytostatika-Rezepturen korrigiert.
+- [x] __#2325__ - Neues Rezept: Ergänzung des NES-Status um 'WARTET AUF ÜBERTRAGUNG'.
+- [x] __#2327__ - eVerordnungen: ein neuer FiveRX-Status 'NICHT_ABRECHENBAR' eingerichtet.
+- [x] __#2328__ - Zyto-Schnittstelle: Übernahme des Kommentars aus der ZYTO-Schnittstelle in den Excel-Export.
+- [x] __#2333__ - Rezept suchen: Fehler bei der Anzeige von e-Rezept-Nummer korrigiert.
+- [x] __#2332__ - Neues Rezept: SOK '6460518' nur mit dem Faktor 11 zugelassen.
+- [x] __#2343__ - Zyto-Schnittstelle: Übernahme der Wirkstoffmenge bei FAM-Mehrfachpackungen aus der ZYTO-Schnittstelle in ApoFAKT korrigiert.
+- [x] __#2344__ - eVerordnungen: Trigger mit den Zusatzattributen (1-4) bei FAM-Rezepten erstellt.
+- [x] __#2345__ - Neues Rezept: Fehler beim 'Rezept kopieren' von FAM - Rohertrag doppelt, korrigiert.
+- [x] __#2354__ - Rezeptanforderungen: Fehler bei der Suche nach eRezeptID korrigiert.
+- [x] __#2357__ - Standardansichten: Rezept suchen - Pseudo-Geburtsdatum durch Leerzeile ersetzt.
+- [x] __#2369__ - Neues Rezept/Auswertungen: Preishistorie (Button Online) entfernt.
+- [x] __#2377__ - eVeordnungen: Tippfehler in der Spalte 'Berufsbezeichnung' korrigiert.
+- [x] __#2381__ - Zyto-Schnittstelle: Definition des Feldes 'Kostenträgerart (KK-Typ)' eingerichtet.
+- [x] __#2382__ - eVerordnungen: automatische Korrektur der Zuzahlung beim Setzen von dem Zusatzattribut 15 (Schlüssel 1) im E-Rezept eingerichtet.
+- [x] __#2384__ - Ext. Artikelstamm: Historie für Zuzahlungsbefreiung bei Festbetragsartikeln eingepflegt.
+- [x] __#2385__ - Zyto-Schnittstelle: Datenimport aus 2 verschiedenen KIS-Systemen - zwei Schnittstellen ermöglicht.
+- [x] __#2391__ - Neues Rezept: Option 'Zuzahlung x Zähler' für Rezepturen bei Mehrfachverordnungen eingerichtet.
+- [x] __#2392__ - Neues Rezept: Prüfung des SOKs bei der Auseinzelung umformuliert.
+- [x] __#2395__ - eVerordnungen: Erweiterung der ärztlichen Signaturanzeige (XML-Darstellung) – vollständige Darstellung von Autor und Attester bei E-Rezepten eingerichtet.
+- [x] __#2409__ - eVerordnungen: Neuer Endezeitpunkt 'Accounting' in ApoFAKT-Online aus ApoFAKT angebunden.
+- [x] __#2410__ - eVerordnungen: neue Icons für NES-Status 'WARTET AUF SIGNATUR' eingerichtet.
+- [x] __#2411__ - Neues Rezept: Button 'Korrektur' für den Fall: NES_STATUS = ABRECHNUNG_ABGEBROCHEN entsperrt.
+- [x] __#2415__ - Konfigurationsparameter für die ApoFAKT-Online REST-Schnittstelle.
+- [x] __#2418__ - eVerordnungen: Darstellung der ärztlichen Verordnung (in NES-Format).
+- [x] __#2431__ - CnX-Dienste: Optimierung der Eingabe der Uhrzeit in dem Scheduler.
+- [x] __#2433__ - CnX-Dienste: CnX-Preisänderungsdienst: Datum des Einspielens 'Aktualisiert am' eingefügt.
+- [x] __#2434__ - CnX-Dienste: CnX-Scheduler - Ereignisprotokoll um Auswertungszeitraum "letzte X Tage, etc." erweitert.
+- [x] __#2435__ - Ereignisanzeige: Filter -'Beschreibung beinhaltet' eingebaut.
+
 # Version 5.4.4.0 (öff. am 11.03.2025)
 - [x] __#1688__ - Zyto-Schnittstelle: die PatientenNr. bearbeiten - die PatientenNr. mit übernommen.
 - [x] __#1881__ - Tax-Checker: das Feld für "FAM" hinzugefügt.
