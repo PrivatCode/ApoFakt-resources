@@ -48,6 +48,7 @@
 - [x] __#2433__ - CnX-Dienste: CnX-Preisänderungsdienst: Datum des Einspielens 'Aktualisiert am' eingefügt.
 - [x] __#2434__ - CnX-Dienste: CnX-Scheduler - Ereignisprotokoll um Auswertungszeitraum "letzte X Tage, etc." erweitert.
 - [x] __#2435__ - Ereignisanzeige: Filter -'Beschreibung beinhaltet' eingebaut.
+- [x] __#2441__ - Neues Rezept/eVerordnungen: SOK 09999011 mit allen Mehrwertsteuersätzen im E-Rezept zulässig.
 
 # Version 5.4.4.0 (öff. am 11.03.2025)
 - [x] __#1688__ - Zyto-Schnittstelle: die PatientenNr. bearbeiten - die PatientenNr. mit übernommen.
