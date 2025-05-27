@@ -1,4 +1,4 @@
-# Version 5.4.5.0 (Pilotierung ab 21.05.2025) 
+# Version 5.4.5.0 (Pilotierung ab 21.05.2025)  
 
 - [x] __#1851__ - eVerordnungen: neue Spalten 'Farben' (blau, grün, rot) zum Markieren einzelner E-Rezepte eingerichtet.
 - [x] __#1866__ - Benutzeransichten: Artikelname in Rezepturen mit angezeigt.
