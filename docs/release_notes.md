@@ -1,3 +1,7 @@
+# Version 5.4.5.1 (Pilotierung ab 15.07.2025)
+- [x] __#2493__ - Neues Rezept: Korrektur im Falle einer umgekehrten Reihenfolge von PZNs nach Kopiervorgang.
+- [x] __#2501__ - Neues Rezept: Korrektur bei der Sortierung von Spalten nach Hinzufügen neuer Spalten zu einer Tabelle.
+
 # Version 5.4.5.0 (Pilotierung ab 21.05.2025)  
 
 - [x] __#1851__ - eVerordnungen: neue Spalten 'Farben' (blau, grün, rot) zum Markieren einzelner E-Rezepte eingerichtet.
