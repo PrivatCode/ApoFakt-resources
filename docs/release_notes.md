@@ -1,4 +1,4 @@
-# Version 5.4.5.1 (öff. am 30.07.2025) 
+# Version 5.4.5.1 (öff. am 04.08.2025)
 - [x] __#2493__ - Neues Rezept: Korrektur im Falle einer umgekehrten Reihenfolge von PZNs nach Kopiervorgang.
 - [x] __#2501__ - Neues Rezept: Korrektur bei der Sortierung von Spalten nach Hinzufügen neuer Spalten zu einer Tabelle.
 

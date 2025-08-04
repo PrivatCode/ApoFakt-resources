@@ -15,8 +15,8 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
-      - name: v5.4.5.1 (öff. am 30.07.2025) 
-        link: ./release_notes#version-5451-öff-am-30072025-
+      - name: v5.4.5.1 (öff. am 04.08.2025)
+        link: ./release_notes#version-5451-öff-am-04082025
       - name: v5.4.5.0 (öff. am 30.07.2025)   
         link: ./release_notes#version-5450-öff-am-30072025---
       - name: v5.4.4.0 (öff. am 11.03.2025)
