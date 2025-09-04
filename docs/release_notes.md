@@ -1,3 +1,47 @@
+# Version 5.4.6.1 (Pilotierung ab 08.09.2025)
+
+### E-Rezept / E-Verordnungen
+- [x] __#2414__ – Erweiterung der Legende um neue Status-Icons: „wartet auf Übertragung“, „wartet auf Signatur“, „storniert“ sowie „QeS durchgeführt“.
+- [x] __#2458__ – Einführung des Moduls „Abgabe Scanner“ zur standardisierten Erfassung von Verordnungsdaten über Scan-Prozesse (z. B. Barcode/Matrixcode). Dieses Modul dient der vereinfachten Übernahme von Rezeptinformationen.
+- [x] __#2472__ – Automatischer Trigger für das Zusatzattribut 15 (von Zuzahlungspflicht befreit) implementiert. Dadurch wird die korrekte Abbildung der Zuzahlungsbefreiung im Workflow sichergestellt.
+- [x] __#2479__ – Dispensierung nun auch direkt in ApoFAKT (lokal) möglich. Integration von Chargenerfassung sowie Tastenkombination F4 Dispense (ApoFAKT).
+- [x] __#2480__ – Sichtbarkeit und Rückverfolgbarkeit von QeS-Signaturen: Neue Spalte zur Abbildung der Signaturinformationen in der Übersicht.
+- [x] __#2483__ – Darstellung des KIM-Status bei Rezeptanforderungen inklusive Anzeige der letzten Ausführung.
+- [x] __#2499__ – Anpassung der Meldungen im Rahmen der Rezeptvalidierung über die RED-Schnittstelle.
+- [x] __#2530__ – Ergänzung eines Buttons „XML (gematik)“ zur direkten Ausgabe bzw. Validierung der Verordnungsdaten im gematik-XML-Format. Dient zur technischen Nachvollziehbarkeit und Testbarkeit.
+- [x] __#2541__ – Implementierung eines Scan-Moduls zur Erfassung von Chargen- und Verfalldaten innerhalb von ApoFAKT (lokal). Dies ermöglicht eine strukturierte Erfassung im Rahmen der Dispensierung.
+- [x] __#2573__ – Anpassung der Meldungs- und Steuerlogik für SOK-Fälle (Sonstige Kostenträger) bei der Abbildung der Umsatzsteuer (19 %). Dies gewährleistet eine regelkonforme Abrechnung.
+
+### ApoFAKT
+- [x] __#2416__ – Entfernung weiterer nicht benötigter Module zur Verschlankung des Systems.
+- [x] __#2425__ – Entfernen der Option „% Multiplizieren“ in der Rezeptur-Taxierungsmaske zur Vermeidung von Berechnungsfehlern.
+- [x] __#2426__ – Umbenennung der Spaltenbezeichnung „mg-Preis/Pack.“ in „ZYTO (mg-Preis/Pack.)“ zur eindeutigen Zuordnung.
+- [x] __#2427__ – Sperre der Eingabe des Faktors 0 beim Taxieren, um fehlerhafte Datensätze auszuschließen.
+- [x] __#2459__ – Ergänzung eines Buttons „an RED-Verordnungsmodul übertragen“ für den E-Rezept-Bereich zur direkten Weitergabe an die RED-Schnittstelle.
+- [x] __#2486__ – Erweiterung der RED-Schnittstelle: Einrichtung von Organisationseinheiten (OE) sowie Option „OE-Import“ zur Synchronisierung zwischen ApoFAKT und RED.
+- [x] __#2579__ – Entfernung der Spalte „MwSt.“ aus der Summenzeile in der Taxierungsübersicht zur Übersichtlichkeit.
+- [x] __#2587__ – Klarstellung in den Artikelstammdaten: Erweiterung der Bezeichnung „EEK“ auf „EEK (Brutto)“.
+- [x] __#2591__ – Dienstprogramme: Apotheken - Mehrwertsteuer-Kontrolle im ApoFAKT E- und Papierrezepte: Stammdaten-Standardsteuersatz eingerichtet.
+- [x] __#2592__ – Belegnummer-Endung für Transfer-Kunden angepasst.
+
+### Privatabrechnung und GKV Zuzahlung
+- [x] __#2466__ – Erweiterung der Filtermöglichkeiten: Rechnungsstatus sowie Inkasso-Status (Ja/Nein, offene Posten).
+- [x] __#2467__ – Filterung nach Vornamen nun auch in Kombination mit anderen Parametern möglich.
+- [x] __#2492__ – Ergänzung der fehlenden Spalte „PIC-Nummer“ in der Rechnungsübersicht.
+- [x] __#2506__ – Option zur Deaktivierung des Feldes „Kommentar“ auf der Zuzahlungsrechnung hinzugefügt.
+- [x] __#2535__ – Korrektur in der Zuzahlungsberechnung: Bei Fertigarzneimitteln wird der jeweilige Taxierungsfaktor nun korrekt berücksichtigt.
+- [x] __#2553__ – Suchfunktion bei Rechnungen um das Filterkriterium Vorname erweitert.
+- [x] __#2557__ – HRAB wird bei der Rohertragsberechnung im PKV-Bereich nicht länger berücksichtigt.
+
+### ZYTO-Schnittstelle
+- [x] __#2513__ – Erweiterung der bestehenden Herstellungsschnittstelle um die Übermittlung von Chargendaten (Chargennummer) im ZME-Segment über Zenzy.
+- [x] __#2535__ – Korrektur bei der Berechnung der Zuzahlung im Rahmen von Fertigarzneimittel-Taxierungen (Berücksichtigung des Faktors).
+
+### Statistik und Auswertungen
+- [x] __#2477__ – ApoCONNECT: Erweiterung um einen Excel-Export für Nachverknüpfungen von @Rezept-Daten.
+- [x] __#2521__ – Rezepturenstatistik: Anzeige des Patientennamens bei der Auswahl „nach Rezept“.
+- [x] __#2595__ – Ergänzung von Präfixen (z. B. FAM-, RR-) zu Variablen in den Benutzeransichten zur eindeutigen Differenzierung.
+
 # Version 5.4.5.1 (öff. am 04.08.2025)
 - [x] __#2493__ - Neues Rezept: Korrektur im Falle einer umgekehrten Reihenfolge von PZNs nach Kopiervorgang.
 - [x] __#2501__ - Neues Rezept: Korrektur bei der Sortierung von Spalten nach Hinzufügen neuer Spalten zu einer Tabelle.
