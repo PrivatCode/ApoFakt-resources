@@ -1,4 +1,14 @@
-# Version 5.4.6.2 und ConnectX 2.0.9.0 ( Pilotierung  ab 29.10.2025)
+# Version 5.4.6.3 und ConnectX Version 2.0.9.5 (öff. am 19.11.2025)
+# Hotfix zur Version 5.4.6.1
+
+### ApoFAKT
+- [x] __#2726__ - Rezepturenstatistik - Korrektur des Fehlers in der Summierung von Taxe. 
+
+### ConnectX
+- [x] __#2723__ - ConnectX: neue Option 'Time-Out' editierbar gemacht.
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Version 2.0.9.5 installieren.
+ 
+# Version 5.4.6.2 und ConnectX Version 2.0.9.0 (Pilotierung ab 29.10.2025)
 
 ### E-Rezept / E-Verordnungen
 - [x] __#2687__ - eVerordnungen: Reiter 'PZN' unter die Legende platziert und Reihenfolge der Reiter überarbeitet.
