@@ -15,6 +15,8 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
+      - name: v5.4.6.3 und ConnectX Version 2.0.9.5 (öff. am 19.11.2025)
+        link: ./release_notes#version-5463-und-connectx-version-2095-öff-am-19112025
       - name: Hotfix zur v5.4.6.1
         link: ./release_notes#hotfix-zur-version-5461
       - name: v5.4.6.2 und ConnectX Version 2.0.9.0 (Pilotierung ab 29.10.2025)
