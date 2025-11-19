@@ -1,4 +1,4 @@
-# Version 5.4.6.3 (Hotfix zur Version 5.4.6.1) und ConnectX 2.0.9.5  (öff. am 19.11.2025)
+# Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
 
 ### ApoFAKT
 - [x] __#2726__ - Rezepturenstatistik - Korrektur des Fehlers in der Summierung von Taxe. 
