@@ -1,14 +1,14 @@
 # Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
 ## Hotfix zur Version 5.4.6
 
-### ApoFAKT
+### ApoFAKT 
 - [x] __#2726__ - Rezepturenstatistik - Korrektur des Fehlers in der Summierung von Taxe. 
 
 ### ConnectX
 - [x] __#2723__ - ConnectX: neue Option 'Time-Out' editierbar gemacht.
 Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Version 2.0.9.5 installieren.
  
-# Version 5.4.6.2 und ConnectX 2.0.9.0 (Pilotierung ab 29.10.2025)
+# Version 5.4.6.2 und ConnectX 2.0.9.0 (öff. am 29.10.2025)
 
 ### E-Rezept / E-Verordnungen
 - [x] __#2687__ - eVerordnungen: Reiter 'PZN' unter die Legende platziert und Reihenfolge der Reiter überarbeitet.
@@ -17,7 +17,7 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2681__ - Neues Rezept: Berechnung der Taxe beim Kopieren des Rezepts mit dem Verwurf über die Taste Sh+ F4 korrigiert.
 - [x] __#2692__ - Neues Rezept: beim Kopieren eines Rezeptes Verwurf mit kopieren: Layout angepasst. 
 
-# Version 5.4.6.1 (Pilotierung ab 08.09.2025)
+# Version 5.4.6.1 (öff. am 08.09.2025)
 
 ### E-Rezept / E-Verordnungen
 - [x] __#2414__ – Erweiterung der Legende um neue Status-Icons: „wartet auf Übertragung“, „wartet auf Signatur“, „storniert“ sowie „QeS durchgeführt“.
