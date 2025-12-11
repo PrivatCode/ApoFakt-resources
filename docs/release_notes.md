@@ -1,3 +1,45 @@
+# Version 5.4.7.0 und ConnectX 2.1.0.0 (Pilotierung ab 10.12.2025)
+
+### E-Rezept / E-Verordnungen
+- [x] __#2421__ - Korrektur der Fehlermeldung beim Austauschen des eRezeptID nach dem Storno in der Zyto-Schnittstelle.
+- [x] __#2625__ - Korrektur der Fehlermeldung bei fehlenden Patientendaten in der Maske Abgabe Scanner.
+- [x] __#2635__ - Einrichtung des Zeilenumbruchs im Feld 'Chargennummer' in der Dispensierung.
+- [x] __#2638__ - Anzeige der Rezepturbestandteile in der Maske 'Charge und Verfallsdatum' bei dem Dispensieren über den Button 'F4 Dispense (ApoFAKT)'.
+- [x] __#2641__ - Sperre des Buttons 'Taxierung stornieren' bei dem NES-Status 'WARTET AUF UBERTRAGUNG' (nach Freigabe).
+- [x] __#2687__ - Neue Platzierung des Reiters 'PZN' unter der Legende; Spalten verschiebbar und Reihenfolge der Reiter überarbeitet.
+
+### ApoFAKT
+- [x] __#2572__ - Abschaltung alter Scheduler- und Datenabholungslogik in ApoFAKT.
+- [x] __#2593__ - Sperre der Taxierung von FAM in Neues Rezept, wenn keine Taxierungsformel vorhanden.
+- [x] __#2632__ - Anpassung der Belegnummer-Endung für weitere Transfer-Kunden.
+- [x] __#2636__ - Protokollierung des Stornovorgangs nach 'Taxierung stornieren' im Verlauf im E-Rezept-Bereich (Neues Rezept).
+- [x] __#2643__ - Einrichtung einer Meldung bei Substitutions-Zubereitungen beim Taxieren von den Rezepturen in Neues Rezept.
+- [x] __#2659__ - Einrichtung eines neuen Artikeltypes "Impfstoffe" im externen Artikestamm.
+- [x] __#2660__ - Hilfsmittel-Status 7 bei der Option "BSNR, KassenGRP abspeichern" in der Taxierung nicht mehr mit übernommen.
+- [x] __#2671__ - Einrichtung eines neuen Feldes 'Kostenstelle' in den Organisationseinheiten.
+- [x] __#2672__ - Einrichtung einer neuen Combobox 'als Kostenstelle übernehmen' in den Arztstammdaten/Organisationseinheiten.
+- [x] __#2685__ - Zugriff auf externe Patientendatenschnittstelle der Benutzer in den Benutzereinstellungen eingeschränkt.
+- [x] __#2691__ - Darstellung der AV-Meldung (außer Vertrieb) beim Taxieren in den Musterrezepturen.
+- [x] __#2708__ - Zugriff auf die Verwaltung der Arztstammdaten (Anlegen/Bearbeiten/Löschen) in den Benutzereinstellungen eingeschränkt.
+- [x] __#2710__ - Spalte 'Geb.frei': Parameter 'NEIN' in den Musterrezepturen: leer gelassen.
+
+### Statistik und Auswertungen
+- [x] __#2601__ - Neuordnung der Felder mithilfe von Kategorien in den Benutzeransichten.
+- [x] __#2707__ - Einrichtung eines separaten Windows-Registry Eintrags in den AMG-Daten/Zyto-Schnittstelle und Anpassung des Pfades.
+- [x] __#2716__ - Erweiterung der Spalte 'SAMGDATA' in den AMG-Daten - neue Feldgröße bis zu 10000 Zeichen .
+
+### ConnectX
+- [x] __#2644__ - Einrichtung einer neuen Option 'Timeout (in Sekunden)'.
+- [x] __#2677__ - Neuerungen ab Version 2.0.8.0 vorgenommen.
+- [x] __#2679__ - Preisänderungsdienst: Korrektur des Indizierungsfehlers (Cluster) beim Erstellen der leeren ABDA-Datenbankstruktur.
+- [x] __#2706__ - Erweiterung des Schemas in ConnectX um das Feld AVSERezeptId.
+- [x] __#2709__ - CnX-Datenabholung: Korrektur der Fehlermeldung 422 'Unprocessable Entity'.
+- [x] __#2712__ - Preisänderungsdienst: Korrektur der Fehlermeldung beim Aktualisieren des Preisänderungsdienstes nach Anpassung der Felder in der Datenbank WWS_ABDA_DB.
+- [x] __#2713__ - Schnittstellenanpassung BD Cato in Bezug auf LANR.
+- [x] __#2722__ - Vollständiger Aufrufstapel eines Fehlers (AggregateException) abgespeichert.
+- [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten.
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.0 bitte passende ConnectX-Version 2.1.0.0 installieren.
+
 # Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
 ## Hotfix zur Version 5.4.6
 
