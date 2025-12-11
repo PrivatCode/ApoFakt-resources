@@ -24,7 +24,7 @@
 - [x] __#2710__ - Spalte 'Geb.frei': Parameter 'NEIN' in den Musterrezepturen: leer gelassen.
 
 ### Statistik und Auswertungen
-- [x] __#2601__ - Neuordnung der Felder mithilfe von Kategorien in den Benutzeransichten.
+- [x] __#2601__ - Neuordnung der Felder in den Benutzeransichten mithilfe von Kategorien.
 - [x] __#2707__ - Einrichtung eines separaten Windows-Registry Eintrags in den AMG-Daten/Zyto-Schnittstelle und Anpassung des Pfades.
 - [x] __#2716__ - Erweiterung der Spalte 'SAMGDATA' in den AMG-Daten - neue Feldgröße bis zu 10000 Zeichen .
 
@@ -36,8 +36,8 @@
 - [x] __#2709__ - CnX-Datenabholung: Korrektur der Fehlermeldung 422 'Unprocessable Entity'.
 - [x] __#2712__ - Preisänderungsdienst: Korrektur der Fehlermeldung beim Aktualisieren des Preisänderungsdienstes nach Anpassung der Felder in der Datenbank WWS_ABDA_DB.
 - [x] __#2713__ - Schnittstellenanpassung BD Cato in Bezug auf LANR.
-- [x] __#2722__ - Vollständiger Aufrufstapel eines Fehlers (AggregateException) abgespeichert.
-- [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten.
+- [x] __#2722__ - Vollständige Stapelverfolgung eines Fehlers: 'AggregateException abgespeichert.
+- [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten. 
 Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.0 bitte passende ConnectX-Version 2.1.0.0 installieren.
 
 # Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
