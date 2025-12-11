@@ -33,11 +33,12 @@
 - [x] __#2677__ - Neuerungen ab Version 2.0.8.0 vorgenommen.
 - [x] __#2679__ - Preisänderungsdienst: Korrektur des Indizierungsfehlers (Cluster) beim Erstellen der leeren ABDA-Datenbankstruktur.
 - [x] __#2706__ - Erweiterung des Schemas in ConnectX um das Feld AVSERezeptId.
-- [x] __#2709__ - CnX-Datenabholung: Korrektur der Fehlermeldung 422 'Unprocessable Entity'.
-- [x] __#2712__ - Preisänderungsdienst: Korrektur der Fehlermeldung beim Aktualisieren des Preisänderungsdienstes nach Anpassung der Felder in der Datenbank WWS_ABDA_DB.
+- [x] __#2709__ - Korrektur der Fehlermeldung 422 'Unprocessable Entity' in der CnX-Datenabholung.
+- [x] __#2712__ - Korrektur der Fehlermeldung beim Aktualisieren des Preisänderungsdienstes nach Anpassung der Felder in der Datenbank WWS_ABDA_DB.
 - [x] __#2713__ - Schnittstellenanpassung BD Cato in Bezug auf LANR.
 - [x] __#2722__ - Vollständige Stapelverfolgung eines Fehlers: 'AggregateException abgespeichert.
 - [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten. 
+
 Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.0 bitte passende ConnectX-Version 2.1.0.0 installieren.
 
 # Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
