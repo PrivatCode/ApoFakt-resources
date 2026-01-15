@@ -1,5 +1,22 @@
-# Version 5.4.7.0 und ConnectX 2.1.0.0 (Pilotierung ab 10.12.2025)
+# Version 5.4.7 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
 
+## Hotfix 5.4.7.2 
+ 
+### Privatabrechnung und GKV Zuzahlung
+- [x] __#2640__ - Direktabrechnung PKV: Einrichtung/Freischaltung des Datenabrufs für das Modul 'Buchungsliste'.
+- [x] __#2779__ - Freischaltung des neuen Moduls 'Buchungsliste'.
+
+## Hotfix 5.4.7.1
+ 
+### E-Rezept / E-Verordnungen
+- [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept in den eVerordnungen.
+
+### Neuigkeiten
+
+### ApoFAKT
+- [x] __#2752__ - Entfernung einer Warnungsmeldung beim Speichern eines Rezeptes in Neues Rezept.
+- [x] __#2757__ - Einlesen der ASV-Teamnummer in externen Patientenstammdaten aus einer externen Datei aufgrund des KIS-Updates ab 2026.
+ 
 ### E-Rezept / E-Verordnungen
 - [x] __#2421__ - Korrektur der Fehlermeldung beim Austauschen des eRezeptID nach dem Storno in der Zyto-Schnittstelle.
 - [x] __#2625__ - Korrektur der Fehlermeldung bei fehlenden Patientendaten in der Maske Abgabe Scanner.
@@ -40,6 +57,8 @@
 - [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten. 
 
 Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.0 bitte passende ConnectX-Version 2.1.0.0 installieren.
+
+--- 
 
 # Version 5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
 ## Hotfix zur Version 5.4.6
@@ -104,6 +123,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2521__ – Rezepturenstatistik: Anzeige des Patientennamens bei der Auswahl „nach Rezept“.
 - [x] __#2595__ – Ergänzung von Präfixen (z. B. FAM-, RR-) zu Variablen in den Benutzeransichten zur eindeutigen Differenzierung.
 
+---
+
 # Version 5.4.5.1 (öff. am 04.08.2025)
 - [x] __#2493__ - Neues Rezept: Korrektur im Falle einer umgekehrten Reihenfolge von PZNs nach Kopiervorgang.
 - [x] __#2501__ - Neues Rezept: Korrektur bei der Sortierung von Spalten nach Hinzufügen neuer Spalten zu einer Tabelle.
@@ -159,6 +180,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2435__ - Ereignisanzeige: Filter -'Beschreibung beinhaltet' eingebaut.
 - [x] __#2441__ - Neues Rezept/eVerordnungen: SOK 09999011 mit allen Mehrwertsteuersätzen im E-Rezept zulässig.
 
+---
+
 # Version 5.4.4.0 (öff. am 11.03.2025)
 - [x] __#1688__ - Zyto-Schnittstelle: die PatientenNr. bearbeiten - die PatientenNr. mit übernommen.
 - [x] __#1881__ - Tax-Checker: das Feld für "FAM" hinzugefügt.
@@ -174,6 +197,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2246__ - eVerordnungen: Korrektur der Datumsbeschreibung - Dispensierungsdatum und Ausstellungsdatum.
 - [x] __#2272__ - eVerordnungen: Fehlermeldung nach Öffnen der XML-Maske (Dispensierungsinformationen) korrigiert.
 - [x] __#2281__ - eVerordnungen: Zusatzatributte bei den Beschaffungskosten (PZN 09999637) auf dem FAM-Rezept nicht mehr automatisch hinzugefügt.
+
+---
 
 # Version 5.4.3.1 (öff. am 31.01.2025) 
 - [x] __#2182__ - Neues Rezept: Chargennr./Verfallsdaten nach Zuordnen eines eRezeptID wieder mit angezeigt.
@@ -198,6 +223,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2163__ - ApoCONNECT - @-Rezept: eine neue Spalte 'Apothekennummer'in Excel/CSV-Datei eingebaut.
 - [x] __#2165__ - eVerordnungen: Korrektur bei den doppelten eRezeptIDs vorgenommen.
 - [x] __#2167__ - eVerordnungen - Rezeptänderung: Kommentare bei dem eRezept nicht mehr automatisch als Rezeptänderung betrachtet.
+
+---
 
 # Version 5.4.2.3 (öff. am 19.12.2024) 
 - [x] __#2118__ - eVerordnungen: Fehler beim Setzen des Zusatzattributs in Bezug auf die Gebührenbefreiung im eRezept korrigiert.
@@ -238,6 +265,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2091__ - eVerordnungen/Zyto-Schnittstelle: Übernahme des Abgabedatums aus der Dispensierung.
 - [x] __#2097__ - Neues Rezept: Format des Verfallsdatums bei den Verwürfen angepasst.
 
+---
+
 # Version 5.4.1.0 (öff. am 13.08.2024) 
 - [x] __#1875__ - Tax-Checker: Korrektur bei der Zeilenauswahl im Tax-Checker.
 - [x] __#1976__ - Zyto-Schnittstelle: Betriebsart CYPRO eingerichtet.
@@ -251,6 +280,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#2004__ - Neues Rezept: Korrektur der Rohertragsberechnung, wenn Anzahl von Packungen (FAM) >1.
 - [x] __#2007__ - Drei neue Felder: Rohertrag-Rez/Rohertrag-PZN/Rohertrag-RRPos in die Benutzeransichten hinzugefügt.
 - [x] __#2012__ - Apotheken - Region: Bearbeiten des Regionsnamen gesperrt.
+
+---
 
 # Version 5.4.0.2 (öff. am 26.06.2024)
 - [x] __#1959__ - Neues Rezept: Rohertrag in der Rezeptliste/Details mitangezeigt.
@@ -278,6 +309,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#1948__ - Verordnungsliste: Summe des Rohertrages eingerichtet.
 - [x] __#1956__ - Neues Rezept: Zuzahlungsbefreiung prüfen - Rückmeldung aus der Schnittstelle eingebaut.
 
+---
+
 # Version 5.3.13.1 (öff. am 15.05.2024)
 - [x] __#1890__ - ConnectX - Korrektur bei der Übertragung der Rezepte (Datenabholung).
 - [x] __#1864__ - eVerodnungen: Zusatzattribute - Korrektur der Fehlermeldung.
@@ -304,6 +337,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#1859__ - Neues Rezept: Korrektur des Rundungsfehlers bei der Zuzahlung.
 - [x] __#1860__ - Benutzeransichten: Währung bei dem Rezeptur-Faktor entfernt.
 
+---
+
 # Version 5.3.12.0 (öff. am 15.02.2024)
 - [x] __#1811__ - Neues Rezept - Rezeptprüfung 28 Tage: Neue Prüfung, die erkennt, wenn zwischen Verordnungsdatum und Abgabedatum mehr als 28 Tage liegen. Hinweistext:
 "Zwischen Verordnungs- und Abgabedatum liegen mehr als 28 Tage. Bitte prüfen Sie, ob das für diese Verordnung gültig ist."
@@ -322,6 +357,8 @@ Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.6.3 bitte passende ConnectX-Vers
 - [x] __#1825__ - Neues Rezept - eRezept: Meldung beim Rezeptstorno angepasst.
 - [x] __#1827__ - eRezept – eVerordnungen: Anzeige des Abgabedatums sowie der RezeptNr. auf dem rosa Rezept.
  
+ ---
+
 # Version 5.3.11.2 (öff. am  22.01.2024)
 - [x] __#1795__ - Korrektur der Fehlermeldung bei der Auswahl der Musterrezeptur, Feld zzgl.Verwurf JA + Preisvergleich JA (GKV Rezept)
 
@@ -351,6 +388,8 @@ Das aut idem Kreuz ist dann immer um 1 Feld zu tief gedruckt und 3 aut idem Kreu
 Das Kreuz für den ersten Artikel muß an die erste Stelle vor dem Verordnungstext gedruckt werden.
 - [x] __#1759__ - Bei den Zyto-Schnittstellen-Optionen wurde ein neuer Parameter: 'Bei PKV nach Hersteller filtern' eingebaut.
 - [x] __#1765__ - Der Export in eine JSON-Datei wurde korrigiert.
+
+---
 
 # Version 5.3.10.1 (öff. am 06.11.2023)
 - [x] __#1733__ - 
@@ -423,6 +462,8 @@ Ab jetzt wird bei solchen Fertigarzneimitteln (mit mehr als 1 Wirkstoff) Faktor 
 - [x] __#1621__ - eRezept: UI Komponente für Rezeptanforderung in der Taxierungsmaske, Auswahl der KIM-Adresse für Empfänger.
 - [x] __#1625__ - eRezept PKV - bei dem Taxierungsvorgang wird der Rezepttyp automatisch auf PKV umgestellt.
 - [x] __#1486__ - eRezept - Inhalt der technischen Tabellen (Queue Tabellen für Rezeptanforderung und Rezeptabruf) wurde dargestellt.
+
+---
 
 # Version 5.3.8.4 (öff. am 24.07.2023)
 - [x] __#1608__ - Warnung "fehlender Wirkstoff" in der Herstellungsschnittstelle wurde rausgenommen.
