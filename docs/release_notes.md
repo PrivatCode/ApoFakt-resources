@@ -11,7 +11,7 @@
 ### E-Rezept / E-Verordnungen
 - [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept in den eVerordnungen.
 
-### Version 5.4.7.0
+## Version 5.4.7.0
 
 ### ApoFAKT
 - [x] __#2752__ - Entfernung einer Warnungsmeldung beim Speichern eines Rezeptes in Neues Rezept.
