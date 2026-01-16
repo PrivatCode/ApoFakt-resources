@@ -1,4 +1,4 @@
-# Version 5.4.7 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
+# Version 5.4.7.0 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
 
 ## Hotfix 5.4.7.2 
  
@@ -11,7 +11,7 @@
 ### E-Rezept / E-Verordnungen
 - [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept in den eVerordnungen.
 
-### Neuigkeiten
+### Version 5.4.7.0
 
 ### ApoFAKT
 - [x] __#2752__ - Entfernung einer Warnungsmeldung beim Speichern eines Rezeptes in Neues Rezept.

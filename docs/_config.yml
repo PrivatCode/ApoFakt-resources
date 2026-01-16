@@ -15,8 +15,8 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
-      - name: v5.4.7 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
-        link: ./release_notes#version-547-und-connectx-2100-öff-am-10122025
+      - name: v5.4.7.0 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
+        link: ./release_notes#version-5470-und-connectx-2100-öff-am-10122025
       - name: v5.4.6.3 und ConnectX 2.0.9.5 (öff. am 19.11.2025)
         link: ./release_notes#version-5463-und-connectx-2095-öff-am-19112025
       - name: v5.4.6.2 und ConnectX 2.0.9.0 (öff. am 29.10.2025)
