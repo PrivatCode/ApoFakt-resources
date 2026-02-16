@@ -11,12 +11,12 @@
 ### E-Rezept / E-Verordnungen
 - [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept in den eVerordnungen.
 
-## Version 5.4.7.0
-
 ### ApoFAKT
 - [x] __#2752__ - Entfernung einer Warnungsmeldung beim Speichern eines Rezeptes in Neues Rezept.
 - [x] __#2757__ - Einlesen der ASV-Teamnummer in externen Patientenstammdaten aus einer externen Datei aufgrund des KIS-Updates ab 2026.
- 
+
+## Version 5.4.7.0
+
 ### E-Rezept / E-Verordnungen
 - [x] __#2421__ - Korrektur der Fehlermeldung beim Austauschen des eRezeptID nach dem Storno in der Zyto-Schnittstelle.
 - [x] __#2625__ - Korrektur der Fehlermeldung bei fehlenden Patientendaten in der Maske Abgabe Scanner.
