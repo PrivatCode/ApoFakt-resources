@@ -1,3 +1,69 @@
+# Version 5.4.8.0 und ConnectX 2.1.6.0 (Pilotierung ab 26.02.2026)
+
+## Hotfix 5.4.8.1 
+
+### ApoFAKT
+
+- [x] __#2934__ - Korrektur beim Filtern der Rezeptliste in Neues Rezept (Flackern auf der Seite bei einer großen Datenmenge).
+
+## Version 5.4.8.0 
+
+### E-Rezept / E-Verordnungen
+ 
+- [x] __#2734__ - Einrichtung der KIM-Konfiguration.
+- [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept.
+- [x] __#2797__ - Optimierungen im Modul E-Verordnung → Dispensierung 'F4 Dispense'/'F5 Freigabe'.
+- [x] __#2801__ - Optimierungen im E-Rezept Verknüpfungstool.
+- [x] __#2817__ - Einbau von fehlenden Zusatzattributen, wenn mehr als eine PZN auf dem eRezept angefordert werden.
+- [x] __#2823__ - Formatierung der Anforderung-XML in den Rezeptanforderugen.
+- [x] __#2826__ - Übernahme von ärztlichen Dosierungsangaben ins Rosa Rezept in eVerordnungen/Rezeptanforderungen.
+ 
+### ApoFAKT
+ 
+- [x] __#2357__ - Ersetzung des Pseudo-Geburtsdatums durch Leerzeile in 'Rezept suchen'.
+- [x] __#2739__ - Eindeutige Kennzeichnung des Buttons zum Löschen aller Sortierungen.
+- [x] __#2752__ - Entfernung einer Meldung beim Speichern eines Rezeptes in Neues Rezept.
+- [x] __#2757__ - Import von ASV-Teamnummer aus externer Datenquelle.
+- [x] __#2766__ - Ersetzung des Pseudo-Abgabedatums durch eine Leerzeile in ApoCONNECT - @Rezept. 
+- [x] __#2770__ - Button 'Zuzahlungsbefreiung prüfen' zeigt Info, wenn Patient befreit ist.
+- [x] __#2777__ - Darstellung von FHIR-Bundle (Anfrage) aus der RED-Schnittstelle.
+- [x] __#2782__ - Excel-Export des letzten Anwender-Kommentars aus dem Verlauf - Spalte 'Beschreibung'.
+- [x] __#2783__ - Berücksichtigung von Wirkstoffmengen bei den Fertigarzneimitteln in der PZN-Substitution.
+- [x] __#2802__ - Erweiterung der Filtermöglichkeiten nach Status 'eRezept fehlt'.
+- [x] __#2804__ - Neue Warnmeldung bei Änderung der Rezeptart von Patienten (PKV->GKV) und neue Icons in der Spalte PKV/GKV in den externen Patientenstammdaten.
+- [x] __#2808__ - Hilfsmittelstamm ABDA ohne Versionsdatum.
+- [x] __#2811__ - Hinzufügen von Spalten, Filtern sowie Excel-Export von Feldern: 'Kostenstelle' und 'Fallnummer' in Neues Rezept.
+- [x] __#2818__ - Zentrale Deaktivierung des alten Schedulers.
+- [x] __#2821__ - Automatische Entfernung von Leerzellen beim Erzeugen der Multiformel im Tax-Checker.
+- [x] __#2824__ - Korrektur bei der Filterung nach NES Status 'UNDEFINED'.
+- [x] __#2835__ - Neue Platzierung des Buttons 'Abbrechen' in den Hilfsmittelstammdaten.
+- [x] __#2843__ - Einrichtung einer neuen Spalte 'RezeptID' in Neues Rezept.
+ 
+### Privatabrechnung und GKV Zuzahlung
+ 
+- [x] __#2674__ - Einrichtung eines neuen Moduls 'Buchungsliste'.
+- [x] __#2779__ - Freischaltung des Moduls 'Buchungsliste'.
+- [x] __#2837__ - Herunterladen von Wörterbüchern in der Privatabrechnung.
+ 
+### ZYTO-Schnittstelle
+ 
+- [x] __#2637__ - Korrektur bei der Übernahme des Hilfsmittelkennzeichens bei Taxierung von Hilfsmitteln aus der ZYTO-Schnittstelle (ZENZY).
+ 
+### Statistik und Auswertungen
+ 
+- [x] __#2771__ - Neue Berechnung des Rohertrages anhand taxierter K-Rezepte in der Arztstatistik. 
+- [x] __#2836__ - Anzeige des Rohertrages 'RR Pos' in den Benutzeransichten.
+ 
+### ConnectX
+
+- [x] __#2680__ - Einrichtung einer neuen Option im Scheduler: Datensicherungen nach X Tagen löschen.
+- [x] __#2747__ - Erstellen von fehlenden Ansichten V_PC_RECHNUNGEN_0XXXX in der Datenabholung.
+- [x] __#2748__ - Hinzufügen der fehlenden Spalte "iAlterPZN" in die WWS-Datenbank bei dem Preisänderungsdienst.
+
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.8.1 bitte passende ConnectX-Version 2.1.6.0 installieren.
+ 
+---
+
 # Version 5.4.7.0 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
 
 ## Hotfix 5.4.7.2 
@@ -56,7 +122,7 @@
 - [x] __#2722__ - Vollständige Stapelverfolgung eines Fehlers: 'AggregateException abgespeichert.
 - [x] __#2731__ - TCP-basierte Schnittstelle: Korrektur des Fehlers bei dem Import von externen Patientendaten. 
 
-Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.0 bitte passende ConnectX-Version 2.1.0.0 installieren.
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.7.2 bitte passende ConnectX-Version 2.1.0.0 installieren.
 
 --- 
 
