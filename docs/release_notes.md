@@ -3,15 +3,12 @@
 ## Hotfix 5.4.8.1 
 
 ### ApoFAKT
-
-- [x] __#2934__ - Korrektur beim Filtern der Rezeptliste in Neues Rezept (Flackern auf der Seite bei einer großen Datenmenge).
+- [x] __#2934__ - Korrektur beim Filtern der Rezeptliste (Flackern in Neues Rezept bei einer großen Datenmenge).
 
 ## Version 5.4.8.0 
 
 ### E-Rezept / E-Verordnungen
- 
 - [x] __#2734__ - Einrichtung der KIM-Konfiguration.
-- [x] __#2759__ - Korrektur der Fehlermeldung beim Hinzufügen einer eVerordnung (iRezeptID) zu bestehendem Rezept.
 - [x] __#2797__ - Optimierungen im Modul E-Verordnung → Dispensierung 'F4 Dispense'/'F5 Freigabe'.
 - [x] __#2801__ - Optimierungen im E-Rezept Verknüpfungstool.
 - [x] __#2817__ - Einbau von fehlenden Zusatzattributen, wenn mehr als eine PZN auf dem eRezept angefordert werden.
@@ -19,11 +16,8 @@
 - [x] __#2826__ - Übernahme von ärztlichen Dosierungsangaben ins Rosa Rezept in eVerordnungen/Rezeptanforderungen.
  
 ### ApoFAKT
- 
 - [x] __#2357__ - Ersetzung des Pseudo-Geburtsdatums durch Leerzeile in 'Rezept suchen'.
 - [x] __#2739__ - Eindeutige Kennzeichnung des Buttons zum Löschen aller Sortierungen.
-- [x] __#2752__ - Entfernung einer Meldung beim Speichern eines Rezeptes in Neues Rezept.
-- [x] __#2757__ - Import von ASV-Teamnummer aus externer Datenquelle.
 - [x] __#2766__ - Ersetzung des Pseudo-Abgabedatums durch eine Leerzeile in ApoCONNECT - @Rezept. 
 - [x] __#2770__ - Button 'Zuzahlungsbefreiung prüfen' zeigt Info, wenn Patient befreit ist.
 - [x] __#2777__ - Darstellung von FHIR-Bundle (Anfrage) aus der RED-Schnittstelle.
@@ -40,20 +34,16 @@
 - [x] __#2843__ - Einrichtung einer neuen Spalte 'RezeptID' in Neues Rezept.
  
 ### Privatabrechnung und GKV Zuzahlung
- 
 - [x] __#2837__ - Herunterladen von Wörterbüchern in der Privatabrechnung.
  
 ### ZYTO-Schnittstelle
- 
 - [x] __#2637__ - Korrektur bei der Übernahme des Hilfsmittelkennzeichens bei Taxierung von Hilfsmitteln aus der ZYTO-Schnittstelle (ZENZY).
  
 ### Statistik und Auswertungen
- 
 - [x] __#2771__ - Neue Berechnung des Rohertrages anhand taxierter K-Rezepte in der Arztstatistik. 
 - [x] __#2836__ - Anzeige des Rohertrages 'RR Pos' in den Benutzeransichten.
  
 ### ConnectX
-
 - [x] __#2680__ - Einrichtung einer neuen Option im Scheduler: Datensicherungen nach X Tagen löschen.
 - [x] __#2747__ - Erstellen von fehlenden Ansichten V_PC_RECHNUNGEN_0XXXX in der Datenabholung.
 - [x] __#2748__ - Hinzufügen der fehlenden Spalte "iAlterPZN" in die WWS-Datenbank bei dem Preisänderungsdienst.
