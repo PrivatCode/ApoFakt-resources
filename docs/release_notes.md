@@ -41,8 +41,6 @@
  
 ### Privatabrechnung und GKV Zuzahlung
  
-- [x] __#2674__ - Einrichtung eines neuen Moduls 'Buchungsliste'.
-- [x] __#2779__ - Freischaltung des Moduls 'Buchungsliste'.
 - [x] __#2837__ - Herunterladen von Wörterbüchern in der Privatabrechnung.
  
 ### ZYTO-Schnittstelle
