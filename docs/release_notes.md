@@ -11,7 +11,7 @@
 ### Privatabrechnung und GKV Zuzahlung
 - [x] __#2946__ - Erweiterung des Excel-Exports in der Buchungsliste um ein neues Feld 'Abrechnungsmonat'.
 
-## Statistik und Auswertungen
+### Statistik und Auswertungen
 - [x] __#2953__ - Einrichtung eines neuen Feldes 'Kostenstelle' in den Benutzeransichten.
 
 ## Hotfix 5.4.8.1 
