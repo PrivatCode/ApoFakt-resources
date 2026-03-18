@@ -1,5 +1,19 @@
 # Version 5.4.8.0 und ConnectX 2.1.6.0 (Pilotierung ab 26.02.2026)
 
+## Hotfix 5.4.8.2 
+
+### ApoFAKT
+- [x] __#2898__ - Einrichtung neuer Artikeltypen im externen Artikelstamm: 'fester mg-Preis', 'Gruppe A (frei verfügbar), 'Gruppe B (frei verfügbar)', 'Gruppe C (frei verfügbar)'.
+- [x] __#2917__ - Erzwingung der Eingabe von Kostenstelle bei der Rezepttaxierung. Einrichtung einer neuen Option 'Kostenstelle' als Pflichtfeld in den  Optionen - Taxierung.
+- [x] __#2952__ - Standardmäßige Speicherung der Kopierrichtung: @Rezept - körperliches Rezept bei erster Nutzung in der Datenübernahme.
+- [x] __#2959__ - Korrekturen beim Import der ASV-Teamnummer aus externer Datenquelle (UK Köln) in den externen Patientendaten.
+
+### Privatabrechnung und GKV Zuzahlung
+- [x] __#2946__ - Erweiterung des Excel-Exports in der Buchungsliste um ein neues Feld 'Abrechnungsmonat'.
+
+## Statistik und Auswertungen
+- [x] __#2953__ - Einrichtung eines neuen Feldes 'Kostenstelle' in den Benutzeransichten.
+
 ## Hotfix 5.4.8.1 
 
 ### ApoFAKT
