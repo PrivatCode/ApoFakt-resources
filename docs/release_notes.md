@@ -33,6 +33,7 @@
 - [x] __#2357__ - Ersetzung des Pseudo-Geburtsdatums durch Leerzeile in 'Rezept suchen'.
 - [x] __#2739__ - Eindeutige Kennzeichnung des Buttons zum Löschen aller Sortierungen.
 - [x] __#2766__ - Ersetzung des Pseudo-Abgabedatums durch eine Leerzeile in ApoCONNECT - @Rezept. 
+- [x] __#2769__ - Deaktivierung der Zuzahlungsbefreiung wg. FB-Unterschreitung in Zubereitungen.
 - [x] __#2770__ - Button 'Zuzahlungsbefreiung prüfen' zeigt Info, wenn Patient befreit ist.
 - [x] __#2777__ - Darstellung von FHIR-Bundle (Anfrage) aus der RED-Schnittstelle.
 - [x] __#2782__ - Excel-Export des letzten Anwender-Kommentars aus dem Verlauf - Spalte 'Beschreibung'.
