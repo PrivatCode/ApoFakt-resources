@@ -1,4 +1,4 @@
-# Version 5.4.8.0 und ConnectX 2.1.6.0 (Pilotierung ab 26.02.2026)
+# Version 5.4.8.0 und ConnectX 2.1.6.0 (öff. am 23.03.2026)
 
 ## Hotfix 5.4.8.2 
 
