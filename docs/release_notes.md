@@ -1,5 +1,10 @@
 # Version 5.4.8.0 und ConnectX 2.1.6.0 (öff. am 23.03.2026)
 
+## Hotfix 5.4.8.3
+
+### ApoFAKT
+- [x] __#3035__ - Korrektur der Berechnung bei unterschiedlichen Relativbezügen während der PZN-Substitution in Neues Rezept.
+
 ## Hotfix 5.4.8.2 
 
 ### ApoFAKT
