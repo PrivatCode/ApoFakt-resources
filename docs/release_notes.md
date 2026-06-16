@@ -1,3 +1,75 @@
+# Version 5.4.9.0 und ConnectX 2.1.8.0 (öff. am 16.06.2026)
+
+## Hotfix 5.4.9.2
+
+### E-Rezept / E-Verordnungen
+- [x] __#3150__ - Entfernung der LANR in der Zyto-Schnittstelle bei der Taxierung (RED-E-Rezepte).
+- [x] __#3153__ - Korrektur der Fehlermeldung "ungültige Suchkriterien" bei den farbigen Markierungen in den eVerordnungen über Zyto-Schnittstelle.
+
+### ApoFAKT
+- [x] __#3157__ - Ergänzung des Verlaufs/der Beschreibung bei den RED-E-Rezepten um Logdateien in Neues Rezept.
+
+## Hotfix 5.4.9.1
+
+### E-Rezept / E-Verordnungen
+- [x] __#3133__ - Übernahme von Chargendaten über Abgabescanner nach Auswahl eines eRezeptID in der Zyto-Schnittstelle.
+
+## Version 5.4.9.0
+
+### E-Rezept / E-Verordnungen
+- [x] __#2849__ - Hinzufügen des Zusatzattributs 15 bei der Rezeptanforderung, wenn mehrere PZNs taxiert werden.
+- [x] __#2861__ - Wechsel von Neues Rezept zum Modul eVerordnungen über den Link 'RezeptID'.
+- [x] __#2868__ - Sperre des Stornos der Taxierung nach Status 'WARTET AUF ÜBERTRAGUNG' in Neues Rezept.
+- [x] __#2924__ - Einrichtung des Hinweises zur Dokumentationspflicht bei der Dispensierung verifikationspflichtiger Arzneimittel beim Taxieren in den eVerordnungen.
+- [x] __#2954__ - Hinzufügen des fehlenden Zusatzattributes 15 bei der zweiten Abrechnungszeile über den Button 'F5 Freigabe, wenn mehrere PZNs taxiert werden.
+- [x] __#2968__ - Ergänzung der Artikelangaben um den Hersteller in der Maske 'Charge und Verfallsdatum'.
+- [x] __#3031__ - Organisationseinheiten incl. Arztdaten bei dem Import aus der RED-Schnittstelle.
+- [x] __#3033__ - Kennzeichnung des E-Rezeptes  in den eVerordnungen, das von dem Zahnarzt ausgestellt wurde.
+- [x] __#3034__ - Ersetzung der Spalte 'Anforderung' in Neues Rezept durch einen neuen Filter 'Status': ALLE/nicht gesendete/gesendete ohne Antwort in den Rezeptanforderungen.
+- [x] __#3056__ - Berechnung der Prüfziffer der Versicherten-ID in der RED-Schnittstelle.
+
+### ApoFAKT
+- [x] __#2772__ - Einrichtung des Hinweises auf Nichtabrechenbarkeit von Klinikpackungen (FAM, Rezepturen) in Neues Rezept.
+- [x] __#2828__ - Übernahme der E-RezeptID ins Rosa Rezept zur besseren Übersicht in Rezept suchen.
+- [x] __#2831__ - Korrektur des Doppelklicks auf den Link über NES-Status in Neues Rezept.
+- [x] __#2844__ - Darstellung des Verkehrsstatus/ der Klinikpackung in Musterrezepturen.
+- [x] __#2881__ - Programmierung von Dymo-Etikettendrucker LabelWriter 550.
+- [x] __#2899__ - Unterschiedliche Kennzeichnung von Vertriebs- Verkehrsstatus im ext. Artikelstamm.
+- [x] __#2921__ - Protokollierung von Logdateien Eintrag beim Aufruf von REST-API (Event Type = 11) in der Ereignisanzeige.
+- [x] __#2955__ - Korrektur der Zuzahlungsberechnung bei gebührenfreier Taxierung - Spalte 'Zuzahlung' synchronisiert mit dem Kästchen 'Geb.frei'.
+- [x] __#2970__ - Korrektur der Fehlermeldung in dem AMG Rabattinfo.
+- [x] __#2979__ - Erweiterung des Five-RX-Exportes um Auswahl der CSV-Version V0108 oder V0110.
+- [x] __#3002__ - Einrichtung einer Meldung, wenn es zu einem Referenzartikel Biosimilars gibt.
+- [x] __#3048__ - Entfernung des Moduls Dauerverordnungen aus Rosa Rezept.
+- [x] __#3061__ - Erweiterung der Zuzahlungsrechnungen um das neue Feld 'HL7-Patienten-ID'.
+
+### Privatabrechnung und GKV Zuzahlung
+- [x] __#3058__ - Einrichtung von zwei neuen Feldern in der Privatabrechnung:'Korrektur von Rechnung' und 'Korrigiert mit Rechnung'
+
+### Statistik und Auswertungen
+- [x] __#2918__ - Optimierungen in den Auswertungen - Kassenabsetzungen.
+- [x] __#2982__ - Auswertung fehlender Rezepturdaten (Faktor, Rabatte, etc.) bei dem E-Rezept in Benutzeransichten/Datenabruf.
+- [x] __#3085__ - Einrichtung des Filters Einspruchsfrist (von-bis) und weitere Anpassungen in den Kassenabsetzungen.
+
+### ConnectX
+- [x] __#2853__ - Einrichtung einer neuen Option zur Umschaltung des Servers zwischen Test- und Produktionsumgebung bei dem Preisänderungsdienst: 'Alternative Datenquelle für PÄD'.
+- [x] __#2872__ - Erweiterung des Versands von Bestätigungen durch TCP, neuer On-Demand-Modus in der HL7-Schnttstelle.
+- [x] __#2873__ - Verarbeitung der Zusammenführung von Patientendaten (Events) beim Import in der HL7-Schnittstelle.
+- [x] __#2874__ - Unterstützung von zwei ADT-Schnittstellen, die Patientendaten aus zwei unterschiedlichen Quellen importieren in der HL7-Schnittstelle.
+- [x] __#2875__ - Import zusätzlicher ABDA-Daten in den lokalen Arbeitsspeicher (Cache).
+- [x] __#2878__ - Erweiterung der REST-Schnittstellen-Endpunkte zum Abrufen von Daten vom Testserver bei dem Preisänderungsdienst.
+- [x] __#2879__ - Einrichtung der Funktion zur Anzeige der BLOB-Felder im Viewer in ConnectX.
+- [x] __#2922__ - Verwaltung der Option 'ConnectX Datenimportschnittstelle verwenden' und Protokollierung des Löschens von Aufgaben in der Ereignisanzeige.
+- [x] __#2923__ - Einrichtung neuer Radiobuttons 'Pfad auf dem Firebird-Server' und 'Pfad auf dem CnX-Server' im Scheduler - Datensicherung.
+- [x] __#2963__ - Aktualisierung des Cache von ABDA nach dem Einspielen eines neuen Preisänderungsdienstes.
+- [x] __#2995__ - Einrichtung des zweiten Datenstroms aus KIS-System in der HL7-Schnittstelle.
+- [x] __#3073__ - Einrichtung des Ereignisprotokolls bei dem Preisänderungsdienst in den CnX-Diensten.
+- [x] __#3086__ - Erweiterung der Logdateien um den Hostnamen 'ConnectX gestartet (RECHNERNAME)'in ConnectX und in der Ereignisanzeige.
+
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.9.2 bitte passende ConnectX-Version 2.1.8.0 installieren.
+
+---
+
 # Version 5.4.8.0 und ConnectX 2.1.6.0 (öff. am 23.03.2026)
 
 ## Hotfix 5.4.8.3
@@ -68,7 +140,7 @@
 - [x] __#2747__ - Erstellen von fehlenden Ansichten V_PC_RECHNUNGEN_0XXXX in der Datenabholung.
 - [x] __#2748__ - Hinzufügen der fehlenden Spalte "iAlterPZN" in die WWS-Datenbank bei dem Preisänderungsdienst.
 
-Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.8.1 bitte passende ConnectX-Version 2.1.6.0 installieren.
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.4.8.3 bitte passende ConnectX-Version 2.1.6.0 installieren.
  
 ---
 

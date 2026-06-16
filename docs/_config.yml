@@ -15,6 +15,8 @@ navigation:
   - name: Release Notes
     link: ./release_notes
     sublist:
+      - name: v5.4.9.0 und ConnectX 2.1.8.0 (öff. am 16.06.2026)
+        link: ./release_notes#version-5490-und-connectx-2180-öff-am-16062026
       - name: v5.4.8.0 und ConnectX 2.1.6.0 (öff. am 23.03.2026)
         link: ./release_notes#version-5480-und-connectx-2160-öff-am-23032026
       - name: v5.4.7.0 und ConnectX 2.1.0.0 (öff. am 10.12.2025)
