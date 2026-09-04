@@ -1,5 +1,10 @@
 # Version 5.4.9.0 und ConnectX 2.1.8.0 (öff. am 16.06.2026)
 
+## Hotfix 5.4.9.3 (öff. am 27.08.2026)
+
+### ApoFAKT
+- [x] __#3363__ - Korrektur der Validierung von Vertriebs- Verkehrsstatus, wenn keine AVOXA-Datenbank vorhanden ist.
+ 
 ## Hotfix 5.4.9.2
 
 ### E-Rezept / E-Verordnungen
