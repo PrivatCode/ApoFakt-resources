@@ -4,7 +4,7 @@
 
 ### ApoFAKT
 - [x] __#3363__ - Korrektur der Validierung von Vertriebs- Verkehrsstatus, wenn keine AVOXA-Datenbank vorhanden ist.
- 
+
 ## Hotfix 5.4.9.2
 
 ### E-Rezept / E-Verordnungen
