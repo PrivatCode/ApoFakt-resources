@@ -1,3 +1,75 @@
+# Version 5.5.0.0 und ConnectX 2.2.0.0 (Pilotierung ab 29.09.2026)
+
+### eRezept / eVerordnungen
+
+- [x] __#2992__ - Optimierung der Maske 'Optionen' in den eVerordnungen.
+- [x] __#3015__ - Sperre der Änderung des Abrechnungstyps von PKV auf GKV in den eVerordnungen.
+- [x] __#3191__ - Automatisches Setzen der Checkbox 'an RED-Verordnungsmodul übertragen' bei Auswahl der Organisationseinheiten in Neues Rezept.
+- [x] __#3137__ - Validierung der LANR der Ärzte in der Liste der Organisationseinheiten.
+- [x] __#3151__ - Hinzufügen von 4 fehlenden Zusatzattributen für FAM-eRezepte.
+- [x] __#3178__ - Sperre der Übermittlung einer neuen VorgangsID nach einem Korrekturvorgang über die RED-Schnittstelle in Neues Rezept.
+- [x] __#3185__ - Entfernung der Meldung 'Ein elektronisches Rezept gefunden' in Neues Rezept/Korrektur.
+- [x] __#3242__ - Korrektur des Schreibfehlers in der Menüleiste von ApoFAKT Online bei 'Signatur' (inkl. Stapelsignatur) in den eVerordnungen.
+- [x] __#3251__ - Validierung des E-Rezeptes vor dem Versand an das RED-Verordnungsmodul in Bezug auf den Rezepturnamen in Neues Rezept.
+- [x] __#3296__ - Aufheben der Verknüpfung beim Storno eines eRezeptes.
+
+### ApoFAKT
+
+- [x] __#2571__ - Einrichtung einer Warnmeldung und Protokollierung bei veralteter AVOXA-Datenbank beim Taxieren im Verlauf in Neues Rezept.
+- [x] __#2594__ - Deaktivierung von SSH-Verbindungen ab dem 01.09.2026 (Datenabholung und Scheduler).
+- [x] __#3039__ - Keine Berechnung des Vergleichspreises bei negativen Werten von PKV-Rezepten (Rezepturen) in Neues Rezept.
+- [x] __#3041__ - Einrichtung einer globalen Option 'PZN-Subst. Bei PKV deaktivieren' im Reiter Taxierung unter den Optionen.
+- [x] __#3044__ - Anzeige eines Kommentar-Icons in Neues Rezept, wenn ein Kommentar hinterlegt wurde.
+- [x] __#3049__ - Einrichtung eines QR-Codes auf den Zuzahlungsrechnungen über den neuen Parameter unter Optionen - Taxierung - Zuzahlungsrechnung: 'QR-Code drucken'.
+- [x] __#3060__ - Korrekte Anzeige der PLZ mit führenden Nullen in der Übersicht taxierter Rezepte und auf den Zuzahlungsrechnungen.
+- [x] __#3089__ - Einrichtung der standardmäßigen Option 'Zuzahlung pro Zeile' bei Auseinzelungen in den Rezepturen in Neues Rezept.
+- [x] __#3127__ - Entfernung des zweiten 'gebührenfrei'-Kästchens (Korrektur der Zuzahlungsberechnung bei gebührenfreier Taxierung).
+- [x] __#3111__ - Prüfung und Korrekturmöglichkeit der BSNR in ApoFAKT.
+- [x] __#3135__ - Einrichtung einer Warnmeldung bei fehlender Fallnummer des Patienten im Abgabe-Scanner.
+- [x] __#3168__ - Korrektur der Berechnung von EEK Brutto/EEK Netto in den eigenen Artikelstammdaten.
+- [x] __#3187__ - Keine Übernahme der Rezept-Sonderstatus 6, 7, 8 und 9 in Neues Rezept.
+- [x] __#3183__ - NIS-2: Anpassung der Datenverschlüsselung.
+- [x] __#3219__ - Aktivierung des Buttons 'Ersetzen' in Neues Rezept - Neue Verordnung.
+- [x] __#3220__ - Auswertung des Impfstoffrabatts bei Auseinzelungen in den Benutzeransichten.
+- [x] __#3226__ - Entfernung des Reiters 'Preismoratorium von 01.08.2010 bis 31.12.2011' im ext. Artikelstamm.
+- [x] __#3243__ - Einrichtung und Validierung des Versichertenstatus mit den neuen DMP-Stati in Neues Rezept.
+- [x] __#3256__ - Korrektur des Schreibfehlers beim Import von Organisationseinheiten in der Taxierung.
+- [x] __#3269__ - Anpassung des Apothekenfixums ab 01.07.2026 und 01.01.2027 in den Taxierungsvariablen.
+- [x] __#3270__ - Anpassung des Textes im Preiskennzeichen: 70 Zuschlag nach der Arzneimittelpreisvereinbarung §5 Abs. 1 Nr. 3 (Festzuschlag).
+- [x] __#3333__ - Korrektur der Zuzahlungsberechnung bei Auseinzelungen mit substituierten PZNs.
+- [x] __#3335__ - Korrektur der Variable 'Faktor' in der Zuzahlungsformel bei der Option 'Zuzahlung pro Zeile'.
+- [x] __#3375__ - Neues Rezept: Einrichtung neuer Zuzahlungen mit Geltung ab dem 01.01.2027.
+- [x] __#3414__ - Korrektur der Übernahme des Hilfsmittelkennzeichens bei betroffenen SOKs im Rezeptausdruck in Neues Rezept.
+ 
+### Privatabrechnung und GKV Zuzahlung
+
+- [x] __#3119__ - Korrektur des Tippfehlers im Feld 'Mahnstopp'.
+- [x] __#3124__ - Einrichtung des systemeigenen Mindestdatums in den Rechnungen.
+- [x] __#3234__ - Angabe des Abrechnungsmonats bei Zahlungseingängen im Excel-Export der Buchungsliste.
+
+### Zyto-Schnittstelle
+
+- [x] __#3043__ - Automatische Chargenübernahme bei Verwürfen über die ZYTO-Schnittstelle.
+- [x] __#3132__ - Neue Darstellung von Therapiedaten/Rezepturnamen in Bezug auf ad/in auf dem Rezept (Zenzy).
+- [x] __#3152__ - Korrektur der Fehlermeldung nach dem Löschen der ArztID bei der Bearbeitung von Herstellungsdaten.
+- [x] __#3163__ - Korrektur in der Maske 'Charge und Verfallsdatum': fehlende Artikelnamen und doppelte PZNs.
+
+### ConnectX
+
+- [x] __#3099__ - Entfernung des Eintrags 'WWS_Artikelstamm.dbo.ABDA_Excecution-5-0' im CnX-Preisänderungsdienst.
+- [x] __#3192__ - Optimierung der Freischaltung des Programms nach Installation des neuen Setups.
+- [x] __#3228__ - Verwaltung der Kennwortänderung in ConnectX - REST-API.
+- [x] __#3233__ - Überprüfung von Admin- und Grundrechten beim Einspielen des Preisänderungsdienstes.
+- [x] __#3244__ - Durchführung interner SQL-Skript-Tests für den alternativen Preisänderungsdienst.
+- [x] __#3249__ - Entwicklung eines neuen Tools zur automatischen Generierung des Preisänderungsdienstes.
+- [x] __#3254__ - Einrichtung einer neuen Logdatei 'Preisänderungsdienst [TTMMJJJJ] wurde eingespielt.' im CnX-Scheduler und in der Ereignisanzeige.
+- [x] __#3320__ - Deaktivierung des Datenabrufs von Rezeptdaten auf Arbeitsplätzen, an denen die Rezeptabrechnung (Taxierung) erfolgt.
+- [x] __#3386__ - Keine Verwendung des Feldes 'eRezeptID' beim Stornieren und bei Statusabfragen.
+
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.5.0.0 bitte passende ConnectX-Version 2.2.0.0 installieren.
+
+---
+
 # Version 5.4.9.0 und ConnectX 2.1.8.0 (öff. am 16.06.2026)
 
 ## Hotfix 5.4.9.3 (öff. am 27.08.2026)
