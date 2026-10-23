@@ -1,5 +1,26 @@
 # Version 5.5.0.0 und ConnectX 2.2.0.0 (Pilotierung ab 29.09.2026)
 
+## Hotfix 5.5.0.1 und ConnectX 2.2.1.0 (Pilotierung ab 22.10.2026)
+
+### eRezept / eVerordnungen
+
+- [x] __#3381__ - Korrektur der Fehlermeldung beim Korrekturvorgang des vom RED-Verordnungsmodul angeforderten E-Rezeptes (nur wenn Anforderungstoken von RED noch nicht vorhanden) in Neues Rezept.
+
+### ApoFAKT
+
+- [x] __#3481__ - Entfernung eines ungültigen Artefaktes (invalid) auf den Zuzahlungsrechnungen.
+- [x] __#3484__ - Abkürzung der Spaltennamen: 'Wertänderungsdatum' und 'Neuer Wert' in den Formel-Variablen.
+
+### Statistik und Auswertungen
+
+- [x] __#3466__ - Einrichtung von fehlenden Avoxa-Artikelinformationen bei den neuen Artikeln (Rezepturen) in den Benutzeransichten.
+
+### ConnectX
+
+- [x] __#3474__ - Einmalige Ausgabe der Meldung 'PÄD ... wurde eingespielt' in der Ereignisanzeige.
+
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.5.0.1 bitte passende ConnectX-Version 2.2.1.0 installieren.
+
 ### eRezept / eVerordnungen
 
 - [x] __#2992__ - Optimierung der Maske 'Optionen' in den eVerordnungen.
