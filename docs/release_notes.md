@@ -1,6 +1,39 @@
-# Version 5.5.0.0 und ConnectX 2.2.0.0 (Pilotierung ab 29.09.2026)
+# Version 5.5.0.0 und ConnectX 2.2.0.0 (öff. 29.09.2026)
 
-## Hotfix 5.5.0.1 und ConnectX 2.2.1.0 (Pilotierung ab 22.10.2026)
+## Hotfix 5.5.0.2 und ConnectX 2.2.2.0 (öff. am 25.11.2026)
+
+### eRezept / eVerordnungen
+
+- [x] __#3225__ - Anzeige des Verlaufs von Rezeptanforderungen per KIM in der Taxierungsübersicht.
+- [x] __#3493__ - Sperrung der Checkbox 'an RED-Verordnungsmodul übertragen' bei den PKV-Rezepten in Neues Rezept.
+- [x] __#3495__ - Zeilenumbruch und Verkleinerung der Schriftgröße im Feld 'Krankenkasse bzw. Kostenträger' in den eVerordnungen: Rosa Rezept.
+- [x] __#3498__ - Schnellsteuerung der Organisationseinheiten über eine Funktionstaste (F-Taste) in Neues Rezept.
+- [x] __#3510__ - Entfernung der Korrektursperre für E-Rezepte.
+
+### ApoFAKT
+
+- [x] __#3300__ - Darstellung des Rohertrages = 0,00 EUR bei den FAM-Rezepten in Neues Rezept.
+- [x] __#3331__ - Prüfung des Herstellungszeitpunktes wegen einem vom System nicht unterstützten Datum.
+- [x] __#3431__ - Import einer Formel aus einer JSON-Datei in den Artikelstammdaten.
+- [x] __#3504__ - Sortierung der Spalten im externen Artikelstamm.
+- [x] __#3513__ - Ergänzung der Liste 'RZ-gemeldete' um alle GV-gesetzten Artikel bei dem Export für die Abrechnung im externen Artikelstamm.
+- [x] __#3514__ - Layoutsänderung: Checkbox 'an RED-Verordnungsmodul übertragen' in Neues Rezept.
+- [x] __#3520__ - Besonderheiten bei den PatientenID speichern lassen (Zählerüberlauf in den Feldern: 'ID', 'PatientenID' in den externen Patienten).
+- [x] __#3530__ - Entfernung der Ansicht 'v_disp_APO' im Preisänderungsdienst.
+
+### Zyto-Schnittstelle
+
+- [x] __#3499__ - Anpassung des Eingabefokus 'auf das Feld 'Referenznummer' und Nummerierung der ZYTO-Übersicht.
+- [x] __#3511__ - Übernahme von Mandanten-ID nach der Aufteilung der Zubereitung.
+- [x] __#3515__ - Anzeige und Wiederherstellung stornierter Zubereitungen.
+
+### ConnectX
+
+- [x] __#3496__ - Korrektur des Fehlers beim Aktualisieren der Artikelstammdaten in der Konfiguration mit separaten WWS-Datenabanken im CnX-Preisänderungsdienst.
+
+Hinweis: Bei dem Update auf ApoFAKT-Version 5.5.0.2 bitte passende ConnectX-Version 2.2.2.0 installieren.
+
+## Hotfix 5.5.0.1 und ConnectX 2.2.1.0 (öff. am 22.10.2026)
 
 ### eRezept / eVerordnungen
 
@@ -20,6 +53,8 @@
 - [x] __#3474__ - Einmalige Ausgabe der Meldung 'PÄD ... wurde eingespielt' in der Ereignisanzeige.
 
 Hinweis: Bei dem Update auf ApoFAKT-Version 5.5.0.1 bitte passende ConnectX-Version 2.2.1.0 installieren.
+
+## Version 5.5.0
 
 ### eRezept / eVerordnungen
 
